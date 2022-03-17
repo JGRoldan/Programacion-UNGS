@@ -1,6 +1,6 @@
 # **Repositorio de programación UNGS**
-### _Licenciatura en Sistemas_
-## Materias
+## _Licenciatura en Sistemas_
+### Materias
 
 - Introducción a la programación
 - Programación I (Proximamente)
