@@ -17,3 +17,4 @@ Lenguaje:
 | Práctica 1 | Práctica 2 |
 | ---------- | ---------- |
 | Variables | Condicionales |
+| Operaciones Aritmeticas | - |
