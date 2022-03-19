@@ -75,3 +75,5 @@ print('Los valores ingresados fueron en el siguiente orden: ',a,b)
 if(a<b):
     a,b=b,a
     print('Ordenado de mayor a menor quedaria: ',a,b)
+else:
+    print('Ordenado de mayor a menor quedaria: ',a,b)
