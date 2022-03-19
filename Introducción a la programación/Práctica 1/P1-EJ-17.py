@@ -22,6 +22,7 @@ print('Usted quiere retirar: $',dinero)
 #    if resto>0:
 #        print('Recibira',resto,'billetes de $',billetes[i])
 #        dinero %= billetes[i]
+#print('Quedaran en el cajero -----> $',dinero) 
 
 d1=dinero//1000
 r1=dinero%1000
