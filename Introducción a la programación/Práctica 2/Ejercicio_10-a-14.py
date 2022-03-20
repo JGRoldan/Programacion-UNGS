@@ -5,12 +5,14 @@
 impuesto = 78
 tarifaFija = 480
 excedenteKW = 25.5
-consumo = int(input('¿Cuantos KW excedentes has consumido?'))
+consumoIni = int(input('KW inicial'))
+consumoFin = int(input('KW final'))
+consumo = consumoIni - consumoFin
 
-if(consumo==0):
+if(consumo<=200):
     print('Debido a que no consumiste KW excedentes, abonaras: \n','$', impuesto+tarifaFija)
 else:
-    print('Debido al consumo excedente de KW, abonaras: \n','$',(consumo*excedenteKW)+impuesto+tarifaFija)
+    print('Debido al consumo excedente de KW, abonaras: \n','$',((consumo-200)*excedenteKW)+impuesto+tarifaFija)
 
 
 #------------------------------
