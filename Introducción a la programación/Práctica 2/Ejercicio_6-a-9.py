@@ -37,7 +37,7 @@ a=int(input('Ingrese un numero mayor a cero: '))
 
 if(a<0):
     print('El numero debe ser mayor a cero')
-elif(0<a<=9):
+elif(a<=9):
     print('Usted ingreso un numero de una cifra')
 else:
     print('El numero ingresado es de mas de una cifra')
