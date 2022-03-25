@@ -15,7 +15,7 @@ Lenguaje:
 
 ### Contenidos
 
-| Práctica 1 | Práctica 2 |
-| ---------- | ---------- |
-| Variables | Condicionales |
-| Operaciones Aritmeticas | Operadores |
+| Práctica 1 | Práctica 2 | Práctica 3 |
+| ---------- | ---------- | ---------- |
+| Variables | Condicionales | Ciclos For/While |
+| Operaciones Aritmeticas | Range() - len() |
