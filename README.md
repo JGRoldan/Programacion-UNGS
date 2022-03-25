@@ -18,4 +18,4 @@ Lenguaje:
 | Práctica 1 | Práctica 2 | Práctica 3 |
 | ---------- | ---------- | ---------- |
 | Variables | Condicionales | Ciclos For/While |
-| Operaciones Aritmeticas | Range() - len() |
+| Operaciones Aritmeticas | Operadores | Range() - len() |
