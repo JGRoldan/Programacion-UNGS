@@ -10,12 +10,17 @@ a=float(input('Ingrese el coeficiente A: '))
 b=float(input('Ingrese el coeficiente B: '))
 print('La ecuacion es: ',a,'x','+',b,'= 0 \n')
 
-if (a==0):
-    print('La ecuacion no tiene solucion.')
+if(a!=0):
+    if (a==0 and b!=0):
+        print('La ecuacion no tiene solucion.')
+    if (a==0 and b==0):
+        print('La solucion son TODOS los Reales')
+    else:
+       x=(-b)/a
+       print('El valor de la incognita es',x)
+       print('La ecuacion tiene solucion en todos los reales')
 else:
-   x=(-b)/a
-   print('El valor de la incognita es',x)
-   print('La ecuacion tiene solucion en todos los reales')
+    print('ERROR: A > 0')
 
 #------------------------------
 #-------------------Ejercicio 18
