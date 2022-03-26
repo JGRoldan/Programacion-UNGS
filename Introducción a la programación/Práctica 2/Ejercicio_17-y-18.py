@@ -20,7 +20,7 @@ if(a!=0):
        print('El valor de la incognita es',x)
        print('La ecuacion tiene solucion en todos los reales')
 else:
-    print('ERROR: A > 0')
+    print('ERROR: A != 0')
 
 #------------------------------
 #-------------------Ejercicio 18
