@@ -12,8 +12,8 @@ while(validar==True):
     if(n>0):
         validar=False
         for i in range(1,n+1):
-            acum+=2*i
-        print(acum)
+            acum=2*i
+            print(acum)
     else:
         print('Ingrese un n>0')
 
@@ -27,8 +27,8 @@ while(validar==True):
     if(n>0):
         validar=False
         for i in range(1,n+1):
-            acum+= i**2
-        print(acum)
+            acum= i**2
+            print(acum)
     else:
         print('Ingrese un n>0')
 
@@ -42,8 +42,8 @@ while(validar==True):
     if(n>0):
         validar=False
         for i in range(1,n+1):
-            acum+= ((i**3)-(i**2))
-        print(acum)
+            acum= ((i**3)-(i**2))
+            print(acum)
     else:
         print('Ingrese un n>0')
 
