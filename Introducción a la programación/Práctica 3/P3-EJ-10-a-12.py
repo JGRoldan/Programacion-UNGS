@@ -2,10 +2,11 @@
 #-------------Ejercicio 10
 #-------------------------
 n=int(input('Ingrese un numero positivo: '))
-
+factorial=1
 if(n>0):
     for i in range(1,n+1):
-        print(1*i)
+        factorial*=i
+        print(factorial)
 else:
     print('Ingrese un n>0')
 
