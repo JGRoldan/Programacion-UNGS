@@ -29,7 +29,18 @@ print(esPrimo(int(input('Ingrese un numero: '))))
 
 # ----D
 
+def esPrimo(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
 
+def cantDiv(n):
+    for i in range(1,n):
+        if n%i==0 and esPrimo(i):
+            print(i)
+
+cantDiv(int(input('Ingrese un numero: ')))
 
 
 
