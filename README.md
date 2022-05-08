@@ -19,3 +19,8 @@ Lenguaje:
 | ---------- | ---------- | ---------- | ---------- |
 | Variables | Condicionales | Ciclos For/While |Funciones|
 | Operaciones Aritmeticas | Operadores | Range() - len() | def( )|
+
+| Práctica 4 |
+| ---------- |
+| Funciones|
+| def( )|
