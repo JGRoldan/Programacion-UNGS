@@ -17,6 +17,24 @@ def tieneRepetidas(cadena):
 cadena=input('Ingrese una cadena: ')
 print(tieneRepetidas(cadena))
 
+#-----Ó-----
+
+def contarApariciones(cadena,encontrar):
+    cont=0
+    for letra in cadena:
+        if letra==encontrar:
+            cont+=1
+    return cont
+
+def tieneRepetidas(cadena):
+    for letra in cadena:
+        if contarApariciones(cadena,letra)>=2:
+            return True
+    return False
+
+print(tieneRepetidas('cadena'))
+
+
 #---- B
 
 def aparece(cadena,letra):
