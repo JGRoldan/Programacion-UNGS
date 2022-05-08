@@ -20,7 +20,7 @@ Lenguaje:
 | Variables | Condicionales | Ciclos For/While |
 | Operaciones Aritmeticas | Operadores | Range() - len() |
 
-| Práctica 4 |
-| ---------- |
-| Funciones|
-| def( )|
+| Práctica 4 | Práctica 5 |
+| ---------- | ---------- |
+| Funciones  | Listas |
+| def( )| Append(), pop()|
