@@ -3,9 +3,6 @@
 # -------------------
 
 
-from operator import length_hint
-
-
 animales=['elefante','jirafa','mono']
 nuevoAnimal=input('Ingrese un nuevo animal: ')
 animales.append(nuevoAnimal)
