@@ -31,7 +31,7 @@ def intercambiar(lista,x,y):
 lista=[1,5,6,8,10,50]
 x=int(input('Ingrese dos numeros entre 1 y ' + str(len(lista))+ '-->'))
 y=int(input('Ingrese dos numeros entre 1 y ' + str(len(lista))+ '-->'))
-print(maximoEntre(lista,x,y))
+print(intercambiar(lista,x,y))
 
 # -------------------
 # ----------------- 13
