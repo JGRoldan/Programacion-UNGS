@@ -1,4 +1,4 @@
-def pagara(numeroCliente,localidad)
+def pagara(numeroCliente,localidad):
 	
 	# Funciones ya creadas
 
