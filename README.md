@@ -30,3 +30,11 @@ Lenguaje:
 Lenguaje:
 
 ![](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+
+### Contenidos
+
+| Práctica 1 | Práctica 2 | Práctica 3 |
+| ---------- | ---------- | ---------- |
+| Variables, expresiones, tipos de datos | - | - |
+| Metodos y condicionales | - | - |
+| Cadenas, arreglos, recursividad | - | - |
