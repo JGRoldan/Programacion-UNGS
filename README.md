@@ -3,7 +3,7 @@
 ### Materias
 
 - Introducción a la programación
-- Programación I (Proximamente)
+- Programación I 
 - Programación II (Proximamente)
 - Programación III (Proximamente)
 
