@@ -32,16 +32,20 @@ public class Ejercicio17a18 {
 	}
 	
 	public static String userString() {
-		System.out.println("Ingrese una palabra: ");
 		Scanner scan=new Scanner(System.in);
 		return scan.nextLine();
 	}
 	public static void main(String[] args) {
-		System.out.println(cantidadApariciones("oftalmologo",'o'));
+		System.out.println("Ingrese una palabra: ");
+		String s=userString();
+		System.out.println("Ingrese una letra: ");
+		char c = userString().charAt(0);
+		System.out.println(cantidadApariciones(s,c));
 		
+		System.out.println("Ingrese una palabra: ");
 		String user=userString().toLowerCase();
 		System.out.println("La cantidad de vocales de " + user + " es: " + cantidadVocales(user));
 		
-		}
+	}
 }
 
