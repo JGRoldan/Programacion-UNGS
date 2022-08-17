@@ -19,7 +19,7 @@ public class Ejercicio19 {
 		return false;
 	}
 	
-		//--------OTRA SOLUCION--------
+			//--------OTRA SOLUCION--------
 	public static int pos(char c) {
 		String abecedario = "abcdefghijklmnopqrstuvwxyz";
 		int pos=0;
@@ -29,7 +29,7 @@ public class Ejercicio19 {
 		return pos;
 	}
 	
-	public static boolean abecedaria(String s) {
+	public static boolean esAbecedaria2(String s) {
 		
 		for(int i=0;i<s.length()-1;i++) {
 			if (pos(s.charAt(i)) > pos(s.charAt(i+1))) return false;
@@ -37,11 +37,20 @@ public class Ejercicio19 {
 		return true;
 	}
 	
+	//--------OTRA SOLUCION--------
+		public static boolean esAbecedaria3(String s) {
+			
+			for(int i=0;i<s.length()-1;i++) {
+				if (s.charAt(i) > s.charAt(i+1)) return false;
+			}
+			return true;
+		}
+	
 	
 	public static void main(String[] args) {
 		System.out.println(esAbecedaria("agil"));
-		
-		System.out.println(abecedaria("agil"));
+		System.out.println(esAbecedaria2("agil"));
+		System.out.println(esAbecedaria3("hilos"));
 		
 	}
 
