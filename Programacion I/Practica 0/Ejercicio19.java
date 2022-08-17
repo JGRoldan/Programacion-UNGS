@@ -19,9 +19,23 @@ public class Ejercicio19 {
 		return false;
 	}
 	
-	public static void main(String[] args) {
+		//--------OTRA SOLUCION--------
+	public static boolean abecedaria(String s) {
+		String abecedario = "abcdefghijklmnopqrstuvwxyz";
 		
+		for(int i=0;i<s.length();i++) {
+			if (pos(abecedario,s.charAt(i)) < i) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	
+	public static void main(String[] args) {
 		System.out.println(esAbecedaria("agil"));
+		
+		System.out.println(abecedaria("agil"));
 		
 	}
 
