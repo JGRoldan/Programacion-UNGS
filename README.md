@@ -33,8 +33,8 @@ Lenguaje:
 
 ### Contenidos
 
-| Práctica 1 | Práctica 2 | Práctica 3 |
-| ---------- | ---------- | ---------- |
-| Variables, expresiones, tipos de datos | - | - |
-| Metodos y condicionales | - | - |
-| Cadenas, arreglos, recursividad | - | - |
+| Práctica 0 | Práctica 1 | 
+| ---------- | ---------- | 
+| Variables, expresiones, tipos de datos | Objetos |
+| Metodos y condicionales | Arrays | 
+| Cadenas, arreglos, recursividad | - |
