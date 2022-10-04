@@ -37,4 +37,4 @@ Lenguaje:
 | ---------- | ---------- | 
 | Variables, expresiones, tipos de datos | Objetos |
 | Metodos y condicionales | Arrays | 
-| Cadenas, arreglos, recursividad | - |
+| Cadenas, arreglos, recursividad | Complejidad computacional |
