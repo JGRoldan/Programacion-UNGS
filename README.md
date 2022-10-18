@@ -33,9 +33,9 @@ Lenguaje:
 
 ### Contenidos
 
-| Práctica 0 | Práctica 1 | 
-| ---------- | ---------- | 
-| Variables, expresiones, tipos de datos | Objetos |
+| Práctica 0 | Práctica 1 | Proyecto | 
+| ---------- | ---------- | ---------- | 
+| Variables, expresiones, tipos de datos | Objetos | Juego |
 | Metodos y condicionales | Arrays | 
 | Cadenas, arreglos, recursividad | Complejidad computacional |
 |  | Listas enlazadas |
