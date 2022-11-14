@@ -1,6 +1,8 @@
 # **Trabajo final de PROGRA I**
 ## _MONO CAPUCHINO_
 
+Proyecto realizado con [nati](https://github.com/natag712) y ceci.
+
 Lenguaje:
 
 ![](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
