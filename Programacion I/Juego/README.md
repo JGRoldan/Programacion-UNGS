@@ -17,7 +17,7 @@ cantidad de puntos necesaria para ganar (derrotando depredadores o
 acumulando puntos por cada desplazamiento en la rama), o el mono colisiona
 con un depredador (de esta forma, pierde).
     
-Proyecto realizado con [nati](https://github.com/natag712) y ceci.
+_Proyecto realizado con [nati](https://github.com/natag712) y ceci._
 
 Lenguaje:
 
