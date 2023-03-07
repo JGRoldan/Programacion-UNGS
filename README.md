@@ -2,10 +2,24 @@
 ## _Licenciatura en Sistemas_
 ### Materias
 
+- Organización del computador I
 - Introducción a la programación
 - Programación I 
-- Programación II (Proximamente)
+- Programación II 
 - Programación III (Proximamente)
+
+# _Organización del computador I_
+
+Lenguaje:
+
+![](https://img.shields.io/badge/ARM-000000?style=for-the-badge&logo=ARM&logoColor=white)
+
+
+### Contenidos
+
+| Proyecto |
+| ---------- |
+| Juego Memotest | 
 
 # _Introducción a la programación_
 
