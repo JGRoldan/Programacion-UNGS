@@ -67,9 +67,9 @@ Lenguaje:
 | Práctica 0 | Práctica 1 | Práctica 2 | Práctica 3 | 
 | ---------- | ---------- | ---------- | ---------- | 
 | Matrices | Complejidad | TAD | String Builder |
-| Acumuladores Booleanos |  | JUnit |
+| Acumuladores Booleanos |  |  | JUnit |
 
 | Práctica 4 | Práctica 5 | Práctica 6 | 
 | ---------- | ---------- | ---------- |
-| Arbol binario | Objeto | Equals - Hash |
-| Arbol binario de busqueda |
+| Árbol binario | Objeto | Equals - Hash |
+| Árbol binario de busqueda |
