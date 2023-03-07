@@ -53,3 +53,18 @@ Lenguaje:
 | Metodos y condicionales | Arrays | 
 | Cadenas, arreglos, recursividad | Complejidad computacional |
 |  | Listas enlazadas |
+
+
+
+# _Programación II_
+
+Lenguaje:
+
+![](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+
+### Contenidos
+
+| Práctica 0 | Práctica 1 | Práctica 2 | Práctica 3 | Práctica 4 | Práctica 5 | Práctica 6 | 
+| ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| Matrices | Complejidad | TAD | String Builder | Arbol binario | Objeto | Equals - Hash |
+| Acumuladores Booleanos |  | JUnit |  | Arbol binario de busqueda |
