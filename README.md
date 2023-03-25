@@ -3,6 +3,7 @@
 ### Materias
 
 - Organización del computador I
+- Sistemas operativos y redes I
 - Introducción a la programación
 - Programación I 
 - Programación II 
