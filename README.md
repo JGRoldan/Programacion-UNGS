@@ -26,7 +26,7 @@ Lenguaje:
 
 Lenguaje:
 
-![](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=C&logoColor=white)
+![](https://img.shields.io/badge/c-3776AB?style=for-the-badge&logo=C&logoColor=white)
 
 
 ### Contenidos
