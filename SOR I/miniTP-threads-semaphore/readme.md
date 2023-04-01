@@ -8,7 +8,7 @@ void lanzar_pregunta_mundialista();
 void lanzar_respuesta_mundialista();
 ```
 
-_Hilos_
+`Hilo manucho`
 ```c
 void *hilo_manucho(void *arg){
 
@@ -32,7 +32,10 @@ void *hilo_manucho(void *arg){
     levantarse('m');
     sem_post(&invitados_pueden_irse);
 }
+```
 
+`Hilo invitados`
+```c
 void *hilo_invitados(void *arg){
 
     sem_wait(&todos_invitados_sentados);
@@ -64,7 +67,10 @@ void *hilo_invitados(void *arg){
     }
     exit (-1); //Si este EXIT no esta => el proceso no pasa a terminado. :( No se como hacer que termine sin necesidad de este exit().
 }
+```
 
+`Hilo mozos`
+```c
 void *hilo_mozos(void *arg){
 
     sem_wait(&mozos_pueden_servir);
@@ -76,3 +82,4 @@ void *hilo_mozos(void *arg){
     } 
 }
 ```
+
