@@ -1,8 +1,9 @@
-## Run Locally
+## Test
 
 ```bash
   gcc asado.c -o asado -lpthread
-  
+```
+```bash
   ./asado
 ```
 
