@@ -1,0 +1,99 @@
+/***********/
+/**ACTORES**/
+/***********/
+
+	Manucho
+	Invitados
+	Mozos
+
+/**************/
+/**Primitivas**/
+/**************/
+
+	sentarse()
+	servirComida()
+	enojarse()
+	levantarse()
+	lanzar_pregunta_mundialista()
+	lanzar_respuesta_mundialista()
+
+/*************/
+/**Semaforos**/
+/*************/
+
+	todos_invitados_sentados //Unico semaforo que empieza en 1
+	manucho_puede_sentarse
+	mozos_pueden_servir
+	empezar_a_comer
+	hace_pregunta
+	recibe_respuesta
+	manucho_puede_irse
+	invitados_pueden_irse
+
+/******************/
+/**Hilo invitados**/
+/******************/
+
+invitados(){
+	
+	//Los invitados se van a ir sentando y el ultimo habilita a manucho.
+	wait(todos_invitados_sentados)
+		sentarse()
+		invitadosSentados++
+		
+		if(intadosSentados == cantidadInvitados)
+			post(manucho_puede_sentarse) 
+		
+	post(todos_invitados_sentados)
+	wait(empezar_a_comer)
+	wait(hace_pregunta)
+	post(recibe_respuesta)
+	post(manucho_puede_irse)
+	wait(invitados_pueden_irse)
+		levantarse()
+}
+
+/****************/
+/**Hilo Manucho**/
+/****************/
+
+manucho(){
+
+	//Cuando todos los invitados esten sentados => manucho puede sentarse.
+	wait(manucho_puede_sentarse)
+	sentarse()
+	
+	//Ciclo para que los mozos sirvan platos (N+1)
+
+	for( i = 0; i < comensales; i++)
+		post(mozos_pueden_servir)
+
+	wait(empezar_a_comer)
+	//Manucho termino de comer => hace pregunta
+	lanzar_pregunta_mundialista()
+	post(hace_pregunta)
+	wait(recibe_respuesta)
+		enojarse()
+		
+	wait(manucho_puede_irse)
+		levantarse()
+	
+	post(invitados_puede_irse)
+	
+	
+}
+
+/**************/
+/**Hilo Mozos**/
+/**************/
+
+mozos(){
+
+    wait(mozos_pueden_servir)
+
+    while(platosServidos != comensales)
+            platosServidos++
+            servirComida()
+            post(empezar_a_comer) //Cuando un plato esta servido => ya pueden empezar a comer
+
+}

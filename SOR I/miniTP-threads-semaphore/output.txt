@@ -1,0 +1,36 @@
+//OUTPUT 5 INVITADOS - 2 MOZOS
+
+Se sentó un invitado.
+Se sentó un invitado.
+Se sentó un invitado.
+Se sentó un invitado.
+Se sentó un invitado.
+Se sentó Manucho.
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un INVITADO termino de comer
+Un INVITADO termino de comer
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+MANUCHO esta comiendo
+Un INVITADO termino de comer
+Un INVITADO termino de comer
+Un INVITADO termino de comer
+MANUCHO termino de comer
+Manucho hace una pregunta mundialista. 
+El invitado esta pensando la respuesta... 
+El invitado respondio. 
+Manucho se enojo por la respuesta de un invitado.
+Se levantó manucho. 
+Se levantó un invitado. 
+Se levantó un invitado. 
+Se levantó un invitado. 
+Se levantó un invitado. 
+Se levantó un invitado. 
