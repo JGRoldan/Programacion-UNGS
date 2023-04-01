@@ -1,7 +1,7 @@
 ## Enunciado
-Manucho que cursó en el primer cuatrimestre la materia Sistemas Operativos y Redes, decide hacer
-un gran asado en su casa para festejar que promocionó la materia. Como además Manucho hace
-poco ganó el Quini 6 no escatima en gastos y decide contratar un servicio de catering.  
+Manucho que cursó en el primer cuatrimestre la materia Sistemas Operativos y Redes, decide hacer  
+un gran asado en su casa para festejar que promocionó la materia. Como además Manucho hace  
+poco ganó el Quini 6 no escatima en gastos y decide contratar un servicio de catering.    
 El servicio consiste de 1 asador y M mozos.  
 A la casa de Mancucho asistirán N invitados. Los comensales se sientan a la mesa, siendo Manucho
 el último en sentarse.  
