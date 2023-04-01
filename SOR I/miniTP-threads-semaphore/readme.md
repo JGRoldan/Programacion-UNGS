@@ -1,5 +1,5 @@
-_Primitivas_
-```c
+** Primitivas **
+```C
 void sentarse(char who)
 
 void servirComida()
