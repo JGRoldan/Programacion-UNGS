@@ -1,3 +1,11 @@
+## Run Locally
+
+```bash
+  gcc asado.c -o asado -lpthread
+  
+  ./asado
+```
+
 `Semaforos`
 ```c
 sem_t todos_invitados_sentados;
