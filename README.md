@@ -22,6 +22,20 @@ Lenguaje:
 | ---------- |
 | Juego Memotest | 
 
+# _SOR I_
+
+Lenguaje:
+
+![](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=C&logoColor=white)
+
+
+### Contenidos
+
+| Mini Tp | Tp Redes|
+| ---------- |---------- |
+| Procesos | - |
+| Thread - Semaforos | - |
+
 # _Introducción a la programación_
 
 Lenguaje:
