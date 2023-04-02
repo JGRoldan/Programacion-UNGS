@@ -54,7 +54,7 @@ void lanzar_respuesta_mundialista();
 ```c
 void *hilo_manucho(void *arg){
 
-        sem_wait(&manucho_puede_sentarse);
+    sem_wait(&manucho_puede_sentarse);
     sentarse('m');
 
     for (int i=0; i<comensales;i++){
