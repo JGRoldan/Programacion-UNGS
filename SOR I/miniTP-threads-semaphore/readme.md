@@ -130,9 +130,7 @@ void *hilo_mozos(void *arg){
 int main(){
 
     //Iniciar hilos
-    pthread_t manucho;
-    pthread_t invitados[cantidadInvitados];
-    pthread_t mozos[cantidadMozos];
+    pthread_t manucho ,[cantidadInvitados],mozos[cantidadMozos];
 
     //Iniciar semaforos
     //sem_init(puntero_semaforo, indica_si_es_compartido_entre_procesos, valor_inicial_semaforo)
@@ -168,6 +166,15 @@ int main(){
 
     pthread_join(manucho, NULL);
 
+    sem_destroy(&todos_invitados_sentados);
+    sem_destroy(&manucho_puede_sentarse);
+    sem_destroy(&mozos_pueden_servir);
+    sem_destroy(&empezar_a_comer);
+    sem_destroy(&hace_pregunta);
+    sem_destroy(&recibe_respuesta);
+    sem_destroy(&manucho_puede_irse);
+    sem_destroy(&invitados_pueden_irse);
+    
     return 0;
 }
 ```
