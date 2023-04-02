@@ -22,7 +22,7 @@ int cantidadInvitados = CANTIDAD_INVITADOS;
 int cantidadMozos = CANTIDAD_MOZOS;
 int comensales = COMENSALES;
 int platosServidos = 0; 
-int invidatosSentados = 0;
+int invitadosSentados = 0;
 int preguntaRespondida = 0; //false
 int do_something = 0;
 
@@ -117,9 +117,9 @@ void *hilo_invitados(void *arg){
 
     sem_wait(&todos_invitados_sentados);
     sentarse('i');
-    invidatosSentados++;
+    invitadosSentados++;
     
-    if(invidatosSentados == cantidadInvitados ){
+    if(invitadosSentados == cantidadInvitados ){
         sem_post(&manucho_puede_sentarse);
     }
 
