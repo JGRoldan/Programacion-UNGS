@@ -1,5 +1,10 @@
-//OUTPUT 5 INVITADOS - 2 MOZOS
+//OUTPUT 10 INVITADOS - 5 MOZOS
 
+Se sentó un invitado.
+Se sentó un invitado.
+Se sentó un invitado.
+Se sentó un invitado.
+Se sentó un invitado.
 Se sentó un invitado.
 Se sentó un invitado.
 Se sentó un invitado.
@@ -14,12 +19,28 @@ Un mozo sirvio un plato.
 Un INVITADO esta comiendo
 Un mozo sirvio un plato.
 Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
 Un INVITADO termino de comer
 Un INVITADO termino de comer
 Un mozo sirvio un plato.
 Un INVITADO esta comiendo
+Un INVITADO termino de comer
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO esta comiendo
+Un INVITADO termino de comer
+Un INVITADO termino de comer
+Un INVITADO termino de comer
 Un mozo sirvio un plato.
 MANUCHO esta comiendo
+Un mozo sirvio un plato.
+Un INVITADO termino de comer
 Un INVITADO termino de comer
 Un INVITADO termino de comer
 Un INVITADO termino de comer
@@ -31,6 +52,11 @@ Manucho se enojo por la respuesta de un invitado.
 Se levantó manucho. 
 Se levantó un invitado. 
 Se levantó un invitado. 
+Se levant� un invitado. 
 Se levantó un invitado. 
 Se levantó un invitado. 
 Se levantó un invitado. 
+Se levantó un invitado. 
+Se levantó un invitado. 
+Se levantó un invitado. 
+Se levantó un invitado.
