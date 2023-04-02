@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h> //Para usleep()
 #include <pthread.h>
 #include <semaphore.h>
 #include <stdlib.h> 
