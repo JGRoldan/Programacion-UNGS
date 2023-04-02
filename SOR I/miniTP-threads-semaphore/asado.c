@@ -25,6 +25,7 @@ int comensales = COMENSALES;
 int platosServidos = 0; 
 int invidatosSentados = 0;
 int preguntaRespondida = 0; //false
+int do_something = 0;
 
 //Semaforos
 sem_t todos_invitados_sentados;
@@ -38,14 +39,16 @@ sem_t invitados_pueden_irse;
 
 //Metodo para simular alguna tarea
 
-void simularTarea(int n){
-    usleep(n*1000000);
+void simularTarea(){
+    for (int i = 0; i < 99999999; i++){
+        do_something += i;
+    }
 }
 
 //Primitivas
 
 void sentarse(char who){
-    simularTarea(1);
+    simularTarea();
     if(who == 'i'){
         printf("Se sentó un invitado.\n");
     }
@@ -55,17 +58,17 @@ void sentarse(char who){
 }
 
 void servirComida(){
-    simularTarea(2);
+    simularTarea();
     printf(ANSI_COLOR_YELLOW "Un mozo sirvio un plato." ANSI_COLOR_RESET "\n");
 }
 
 void enojarse(){
-    simularTarea(5);
+    simularTarea();
     printf(ANSI_BG_RED "Manucho se enojo por la respuesta de un invitado." ANSI_COLOR_RESET "\n");
 }
 
 void levantarse(char who){
-    simularTarea(1);
+    //simularTarea();
     if(who == 'i'){
         printf("Se levantó un invitado. \n");
     }
@@ -75,15 +78,16 @@ void levantarse(char who){
 }
 
 void lanzar_pregunta_mundialista(){
-    simularTarea(3);
+    //simularTarea();
     printf("Manucho hace una pregunta mundialista. \n");
 }
 
 void lanzar_respuesta_mundialista(){
     printf("El invitado esta pensando la respuesta... \n");
-    simularTarea(3);
+    simularTarea();
     printf("El invitado respondio. \n");
 }
+
 
 //Hilos
 
@@ -98,7 +102,7 @@ void *hilo_manucho(void *arg){
 
     sem_wait(&empezar_a_comer);
     printf(ANSI_COLOR_GREEN "MANUCHO esta comiendo" ANSI_COLOR_RESET "\n");
-    simularTarea(3);
+    simularTarea();
     printf(ANSI_COLOR_CYAN "MANUCHO termino de comer" ANSI_COLOR_RESET "\n");
 
     lanzar_pregunta_mundialista();
@@ -124,7 +128,7 @@ void *hilo_invitados(void *arg){
 
     sem_wait(&empezar_a_comer);
     printf(ANSI_COLOR_GREEN "Un INVITADO esta comiendo" ANSI_COLOR_RESET "\n");
-    simularTarea(3);
+    simularTarea();
     printf(ANSI_COLOR_MAGENTA "Un INVITADO termino de comer" ANSI_COLOR_RESET "\n");
 
 
