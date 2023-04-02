@@ -82,9 +82,9 @@ void *hilo_invitados(void *arg){
 
     sem_wait(&todos_invitados_sentados);
     sentarse('i');
-    invidatosSentados++;
+    invitadosSentados++;
     
-    if(invidatosSentados == cantidadInvitados ){
+    if(invitadosSentados == cantidadInvitados ){
         sem_post(&manucho_puede_sentarse);
     }
 
