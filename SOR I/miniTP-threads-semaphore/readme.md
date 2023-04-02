@@ -54,7 +54,7 @@ void lanzar_respuesta_mundialista();
 ```c
 void *hilo_manucho(void *arg){
 
-    sem_wait(&manucho_puede_sentarse);
+        sem_wait(&manucho_puede_sentarse);
     sentarse('m');
 
     for (int i=0; i<comensales;i++){
@@ -63,7 +63,7 @@ void *hilo_manucho(void *arg){
 
     sem_wait(&empezar_a_comer);
     printf(ANSI_COLOR_GREEN "MANUCHO esta comiendo" ANSI_COLOR_RESET "\n");
-    simularTarea(3);
+    simularTarea();
     printf(ANSI_COLOR_CYAN "MANUCHO termino de comer" ANSI_COLOR_RESET "\n");
 
     lanzar_pregunta_mundialista();
@@ -92,7 +92,7 @@ void *hilo_invitados(void *arg){
 
     sem_wait(&empezar_a_comer);
     printf(ANSI_COLOR_GREEN "Un INVITADO esta comiendo" ANSI_COLOR_RESET "\n");
-    simularTarea(3);
+    simularTarea();
     printf(ANSI_COLOR_MAGENTA "Un INVITADO termino de comer" ANSI_COLOR_RESET "\n");
 
 
