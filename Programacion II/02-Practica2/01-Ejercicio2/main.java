@@ -7,11 +7,16 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		TAD_Tupla tupla = new TAD_Tupla(0, 0);
+		TAD_Tupla<Integer, Integer> tupla = new TAD_Tupla<>(null,null);
 		
-		tupla.setX(10);
-		tupla.setY(20);
-		System.out.println(tupla.toString());
+		ArrayList<TAD_Tupla<Integer,Integer>> coordenadas = new ArrayList<>();
+		
+		coordenadas.add(new TAD_Tupla<>(20,30));
+		coordenadas.add(new TAD_Tupla<>(80,50));
+		
+		for (TAD_Tupla<Integer, Integer> coord : coordenadas) {
+			System.out.println(coord);
+		}
 		
 	}
 
