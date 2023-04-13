@@ -70,9 +70,11 @@ public class TAD_Conjunto<T> {
 	}
 	
 	public void interseccion(TAD_Conjunto<T> c){
+		//Destructiva
 		throw new RuntimeException("No se :(");
 	} 
 	public TAD_Conjunto<T> interseccion2(TAD_Conjunto<T> c){
+		//No debe tener Aliasing
 		throw new RuntimeException("No se :(");
 	}
 }
