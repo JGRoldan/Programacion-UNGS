@@ -52,11 +52,6 @@ public class TAD_Conjunto<T> {
 		return elementos.size();
 	}
 	
-	
-	//////////////////  TAREA ///////////////////
-	// USAR SOLO LOS METODOS DEFINIDOS ARRIBA. //
-	/////////////////////////////////////////////
-	
 	public void union(TAD_Conjunto<T> c){
 		// union1: Destructiva
 		
@@ -75,10 +70,9 @@ public class TAD_Conjunto<T> {
 	}
 	
 	public void interseccion(TAD_Conjunto<T> c){
-		// interseccion 1: Destructiva
-		throw new RuntimeException("Implementame!!!");
+		throw new RuntimeException("No se :(");
 	} 
 	public TAD_Conjunto<T> interseccion2(TAD_Conjunto<T> c){
-		throw new RuntimeException("Implementame!!!");
+		throw new RuntimeException("No se :(");
 	}
 }
