@@ -33,7 +33,7 @@ Lenguaje:
 
 | Mini Tp | Tp Redes|
 | ---------- |---------- |
-| Procesos | - |
+| Procesos | Packet Tracer |
 | Thread - Semaforos | - |
 
 # _Introducción a la programación_
