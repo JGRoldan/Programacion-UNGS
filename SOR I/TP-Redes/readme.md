@@ -3,13 +3,13 @@ Tu equipo ha sido convocado para hacer el trabajo. La casa central se encuentra 
 posee sucursales en Córdoba y La Rioja.
 La sede ubicada en el microcentro porteño, tiene un edificio de 4 pisos, con un total de 500
 computadoras. Estas están distribuidas lógicamente en diferentes departamentos a saber:  
-● Departamento de Desarrollo Tecnológico: tiene 260 computadoras o nodos
-● Diseño Gráfico: 70 computadoras o hosts.
-● Gerencia: 90 nodos.
-● Contabilidad 80 hosts.
+● Departamento de Desarrollo Tecnológico: tiene 260 computadoras o nodos.  
+● Diseño Gráfico: 70 computadoras o hosts.  
+● Gerencia: 90 nodos.  
+● Contabilidad 80 hosts.  
 ● Se le ha pedido a tu equipo que segmente utilizando un switch central, se han comprado
-dos routers Cisco para comunicar la red lan con el exterior.
-● Casa matriz posee 1 Web server que aloja el sitio oficial de skynet.com.ar.
+dos routers Cisco para comunicar la red lan con el exterior.  
+● Casa matriz posee 1 Web server que aloja el sitio oficial de skynet.com.ar.  
 
 Sucursal Córdoba:  
 ● 150 nodos, Administración 90 y Ventas 60. Cuenta 1 switch y un router Cisco.  
