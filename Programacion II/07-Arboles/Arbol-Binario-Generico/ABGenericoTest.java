@@ -41,6 +41,9 @@ public class ABGenericoTest {
 		hojas = 5;
 		minimoElem = 2;
 		maximoElem = 80;
+		inorden = "20 50 15 30 40 2 25 55 80 10 ";
+		preorden = "50 20 30 15 2 40 55 25 10 80 ";
+		postOrden = "20 15 40 25 80 10 55 2 30 50 ";
 		
 	}
 
@@ -71,6 +74,22 @@ public class ABGenericoTest {
 	@Test
 	public void testMaximoElem() {
 		assertEquals(maximoElem, arbol.maximoElem());
+	}
+	@Test
+	public void testRecorridoInorden() {
+		assertEquals(inorden, arbol.inOrden());
+	}
+	@Test
+	public void testRecorridoPreorden() {
+		assertEquals(preorden, arbol.preOrden());
+	}
+	@Test
+	public void testRecorridoPostorden() {
+		assertEquals(postOrden, arbol.postOrden());
+	}
+	@Test
+	public void testBalanceado() {
+		assertFalse(arbol.estaBalanceado());
 	}
 
 }

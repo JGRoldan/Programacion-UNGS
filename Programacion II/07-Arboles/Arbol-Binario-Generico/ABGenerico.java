@@ -1,5 +1,7 @@
 package ABGenerico;
 
+import ABgh.ABInt.NodoInt;
+
 public class ABGenerico<T extends Comparable<T>>{
 	private Nodo<T> raiz;
 	
@@ -148,10 +150,132 @@ public class ABGenerico<T extends Comparable<T>>{
 		return Math.max(max, Math.max(maxIzq, maxDer));
 	}
 	
+	/**
+	 * Recorrido inorden
+	 * izquierda - nodo - derecha
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	public String inOrden() {
+		return inOrden(raiz);
+	}
 	
+	private String inOrden(Nodo<T> nodo) {
+		StringBuilder sb = new StringBuilder();
+		if(nodo == null) return "";
+		
+		return sb.append(inOrden(nodo.consultarIzq()))
+				.append(nodo.consultarElem()).append(" ")
+				.append(inOrden(nodo.consultarDer()))
+				.toString();
+	}
 	
+	/**
+	 * Recorrido preorden
+	 * nodo - izquierda - derecha
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	public String preOrden() {
+		return preOrden(raiz);
+	}
 	
+	private String preOrden(Nodo<T> nodo) {
+		StringBuilder sb = new StringBuilder();
+		if(nodo == null) return "";
+		
+		return sb.append(nodo.consultarElem()).append(" ")
+				.append(preOrden(nodo.consultarIzq()))
+				.append(preOrden(nodo.consultarDer()))
+				.toString();
+	}
 	
+	/**
+	 * Recorrido postorden
+	 * izquierda - derecha - nodo
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	public String postOrden() {
+		return postOrden(raiz);
+	}
 	
+	private String postOrden(Nodo<T> nodo) {
+		StringBuilder sb = new StringBuilder();
+		if(nodo == null) return "";
+		
+		return sb.append(postOrden(nodo.consultarIzq()))
+				.append(postOrden(nodo.consultarDer()))
+				.append(nodo.consultarElem()).append(" ")
+				.toString();
+	}
+	
+	/**
+	 * Arbol balanceado segun definicion
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	public boolean estaBalanceado() {
+		return estaBalanceado(raiz);
+	}
+	
+	private boolean estaBalanceado(Nodo<T> nodo) {
+		if(nodo==null) return true;
+		//Definicion de arbol balanceado
+		return Math.abs(altura(nodo.izq) - altura(nodo.der)) >= 1 && estaBalanceado(nodo.izq)
+				&& estaBalanceado(nodo.der);
+	}
+	
+	/**
+	 * Rama mas corta
+	 * @return
+	 * En este caso siempre es 2, por el 
+	 * metodo agregar(nodo)
+	 * 
+	 * Complejidad = O(n)
+	 */
+	public int ramaMasCorta() {
+		return ramaMasCorta(raiz);
+	}
+
+	private int ramaMasCorta(Nodo<T> nodo) {
+		if (nodo.consultarIzq() == null && nodo.consultarDer() == null) {
+			return 1;
+		} else if (nodo.consultarIzq() == null) {
+			return 1 + ramaMasCorta(nodo.consultarDer());
+		} else if (nodo.consultarDer() == null) {
+			return 1 + ramaMasCorta(nodo.consultarIzq());
+		} else {
+			return 1 + Math.min(ramaMasCorta(nodo.consultarIzq()), ramaMasCorta(nodo.consultarDer()));
+		}
+	}
+	
+	/**
+	 * Imprimir nodos de un nivel dado 
+	 * @param nivel
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	
+	public String nodosDelNivel(int nivel) {
+		if(raiz == null) 
+			return "";
+		return nodosDelNivel(raiz,nivel,1);
+	}
+	
+	private String nodosDelNivel(Nodo<T> nodo,int nivel,int nivelActual) {
+		StringBuilder sb = new StringBuilder();
+		if(nodo == null) return sb.toString();
+		if (nivel == nivelActual)
+			return sb.append(nodo.consultarElem()).append(" ").toString();
+		else
+			return sb.append(nodosDelNivel(nodo.consultarIzq(),nivel,nivelActual+1))
+						 .append(nodosDelNivel(nodo.consultarDer(),nivel,nivelActual+1)).toString();	
+	}
 	
 }
