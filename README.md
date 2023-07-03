@@ -84,7 +84,7 @@ Lenguaje:
 | Matrices | Complejidad | TAD | String Builder |
 | Acumuladores Booleanos |  |  | JUnit |
 
-| Práctica 4 | Práctica 5 | Práctica 6 | 
-| ---------- | ---------- | ---------- |
-| Árbol binario | Objeto | Equals - Hash |
+| Práctica 4 | Práctica 5 | Práctica 6 | Proyecto |
+| ---------- | ---------- | ---------- |---------- |
+| Árbol binario | Objeto | Equals - Hash | TP-Empresa |
 | Árbol binario de busqueda |
