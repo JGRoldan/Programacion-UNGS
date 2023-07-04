@@ -278,4 +278,61 @@ public class ABGenerico<T extends Comparable<T>>{
 						 .append(nodosDelNivel(nodo.consultarDer(),nivel,nivelActual+1)).toString();	
 	}
 	
+	/**
+	 * Cantidad de nodos no hojas contando la raiz
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	
+	public int cantNodosNoHojas() {
+		return cantNodosNoHojas(raiz);
+	}
+	
+	private int cantNodosNoHojas(Nodo<T> nodo) {
+		if (nodo == null) return 0;
+		if(nodo.consultarIzq() != null || nodo.consultarDer() != null)
+			return 1 + cantNodosNoHojas(nodo.consultarDer()) + cantNodosNoHojas(nodo.consultarIzq());
+		else
+			return 0;
+	}
+	
+	/**
+	 * Suma de nodos hoja
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	
+	public int sumaDeHojas() {
+		return sumaDeHojas(raiz);
+	}
+	
+	private int sumaDeHojas(Nodo<T> nodo) {
+		if (nodo == null) return 0;
+		if(nodo.consultarIzq() == null && nodo.consultarDer() == null)
+			return (int) nodo.consultarElem();
+		return sumaDeHojas(nodo.consultarDer()) + sumaDeHojas(nodo.consultarIzq());
+			
+	}
+	
+	/**
+	 * Suma de nodos NO hoja
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	
+	public int sumaDeNoHojas() {
+		return sumaDeNoHojas(raiz);
+	}
+	
+	private int sumaDeNoHojas(Nodo<T> nodo) {
+		if (nodo == null) return 0;
+		if(nodo.consultarIzq() != null || nodo.consultarDer() != null)
+			return (int) nodo.consultarElem() + sumaDeNoHojas(nodo.consultarDer()) + sumaDeNoHojas(nodo.consultarIzq());
+		return sumaDeNoHojas(nodo.consultarDer()) + sumaDeNoHojas(nodo.consultarIzq());
+			
+	}
+	
 }

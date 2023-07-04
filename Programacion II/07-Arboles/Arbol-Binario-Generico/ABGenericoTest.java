@@ -14,8 +14,10 @@ public class ABGenericoTest {
 				altura,
 				hojas,
 				minimoElem,
-				maximoElem;
-	
+				maximoElem,
+				nodosNoHojas,
+				sumaDeHojas,
+				sumaDeNoHojas;
 	static String inorden,
 					preorden,
 					postOrden;
@@ -41,9 +43,13 @@ public class ABGenericoTest {
 		hojas = 5;
 		minimoElem = 2;
 		maximoElem = 80;
+		nodosNoHojas = 5;
+		sumaDeHojas = 180;
+		sumaDeNoHojas=147;
 		inorden = "20 50 15 30 40 2 25 55 80 10 ";
 		preorden = "50 20 30 15 2 40 55 25 10 80 ";
 		postOrden = "20 15 40 25 80 10 55 2 30 50 ";
+		
 		
 	}
 
@@ -91,5 +97,16 @@ public class ABGenericoTest {
 	public void testBalanceado() {
 		assertFalse(arbol.estaBalanceado());
 	}
-
+	@Test
+	public void testCantNodosNoHojas() {
+		assertEquals(nodosNoHojas, arbol.cantNodosNoHojas());
+	}
+	@Test
+	public void testSumaHojas() {
+		assertEquals(sumaDeHojas, arbol.sumaDeHojas());
+	}
+	@Test
+	public void testSumaNoHojas() {
+		assertEquals(sumaDeNoHojas, arbol.sumaDeNoHojas());
+	}
 }
