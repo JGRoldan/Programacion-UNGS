@@ -317,6 +317,27 @@ public class ABGenerico<T extends Comparable<T>>{
 	}
 	
 	/**
+	 * Imprimir hojas mayores a un elemento
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	
+	public String imprimirHojasMayoresA(T elem) {
+		return imprimirHojasMayoresA(raiz, elem);
+	}
+	
+	private String imprimirHojasMayoresA(Nodo<T> nodo, T elem) {
+		if (nodo == null) return "";
+		if(nodo.consultarIzq() == null && nodo.consultarDer() == null)
+			if(nodo.consultarElem().compareTo(elem) > 0)
+				return nodo.consultarElem() + " ";
+		return imprimirHojasMayoresA(nodo.consultarDer(), elem) + 
+				imprimirHojasMayoresA(nodo.consultarIzq(),elem);
+			
+	}
+	
+	/**
 	 * Suma de nodos NO hoja
 	 * @return
 	 * 
@@ -335,4 +356,101 @@ public class ABGenerico<T extends Comparable<T>>{
 			
 	}
 	
+	/**
+	 * Suma de nodos internos
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	public int sumaDeNodosInternos() {
+		return sumaDeNodosInternos(raiz);
+	}
+	
+	private int sumaDeNodosInternos(Nodo<T> nodo) {
+		if(nodo == null) return 0;
+		//Descarto la raiz
+		if(nodo.equals(raiz)) 
+			return sumaDeNodosInternos(nodo.consultarDer()) +
+					sumaDeNodosInternos(nodo.consultarIzq());
+		
+		if(nodo.consultarDer() != null || nodo.consultarIzq() != null)
+			return (int) nodo.consultarElem() + 
+					sumaDeNodosInternos(nodo.consultarDer()) + 
+					sumaDeNodosInternos(nodo.consultarIzq());
+		return 0;
+	}
+	
+	/**
+	 * Cantidad de nodos con un hijo
+	 * @return
+	 * 
+	 * Complejidad = O(n)
+	 */
+	
+	public int nodosConUnHijo() {
+		return nodosConUnHijo(raiz);
+	}
+	
+	private int nodosConUnHijo(Nodo<T> nodo) {
+		if(nodo == null) return 0;
+		
+		if(nodo.consultarDer() == null && nodo.izq != null)
+			return 1 + nodosConUnHijo(nodo.consultarIzq()) ;
+		if(nodo.consultarDer() != null && nodo.izq == null)
+			return 1 + nodosConUnHijo(nodo.consultarDer());
+		
+		return nodosConUnHijo(nodo.consultarDer()) + nodosConUnHijo(nodo.consultarIzq());
+	}
+	
+	
+	/**
+	 * Cambiar ppor hijo mayor
+	 * 
+	 * Complejidad = O(n)
+	 */
+	
+    public void cambiarPorHijoMayor() {
+    	cambiarPorHijoMayor(raiz);
+    }
+    
+    private void cambiarPorHijoMayor(Nodo<T> nodo) {
+    	if(nodo.consultarIzq() != null && nodo.consultarDer() != null) {
+    		Nodo<T> maximoHijo = consultarMaximoHijo(nodo.consultarIzq(), nodo.consultarDer());
+    		if(maximoHijo != null) {
+    			T temp = nodo.consultarElem();
+    			nodo.modificarNodo(maximoHijo.consultarElem());
+    			maximoHijo.modificarNodo(temp);
+    		}
+    		cambiarPorHijoMayor(nodo.consultarIzq());
+    		cambiarPorHijoMayor(nodo.consultarDer());
+    	}
+    
+    }
+    
+    private Nodo<T> consultarMaximoHijo(Nodo<T> n1, Nodo<T> n2) {
+    	if(n1.consultarElem().compareTo(n2.consultarElem())>0) return n1;
+    	return n2;
+    }
+    
+    /**
+     * Nodos visitados hasta un elemento en preorden
+     * @param elem
+     * @return
+     * 
+     * Complejidad = O(n)
+     */
+    
+    public int nodosVisitadosHasta(T elem) {
+    	if (raiz == null) return 0;
+    	if(!pertenece(elem)) return 0;
+    	return nodosVisitadosHasta(raiz, elem);
+    }
+    
+    private int nodosVisitadosHasta(Nodo<T> nodo, T elem) {
+    	if(nodo == null) return 0;
+    	if(nodo.consultarElem().equals(elem)) return 0;
+    	return 1 + nodosVisitadosHasta(nodo.consultarIzq(), elem) + 
+    			nodosVisitadosHasta(nodo.consultarDer(), elem);
+    }
+
 }

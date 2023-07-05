@@ -17,7 +17,8 @@ public class ABGenericoTest {
 				maximoElem,
 				nodosNoHojas,
 				sumaDeHojas,
-				sumaDeNoHojas;
+				sumaDeNoHojas,
+				sumaDeInternos;
 	static String inorden,
 					preorden,
 					postOrden;
@@ -46,6 +47,7 @@ public class ABGenericoTest {
 		nodosNoHojas = 5;
 		sumaDeHojas = 180;
 		sumaDeNoHojas=147;
+		sumaDeInternos = 97;
 		inorden = "20 50 15 30 40 2 25 55 80 10 ";
 		preorden = "50 20 30 15 2 40 55 25 10 80 ";
 		postOrden = "20 15 40 25 80 10 55 2 30 50 ";
@@ -108,5 +110,9 @@ public class ABGenericoTest {
 	@Test
 	public void testSumaNoHojas() {
 		assertEquals(sumaDeNoHojas, arbol.sumaDeNoHojas());
+	}
+	@Test
+	public void testSumaDeInternos() {
+		assertEquals(sumaDeInternos, arbol.sumaDeNodosInternos());
 	}
 }
