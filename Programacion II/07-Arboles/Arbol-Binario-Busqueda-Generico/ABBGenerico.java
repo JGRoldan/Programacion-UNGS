@@ -335,5 +335,28 @@ public class ABBGenerico <T extends Comparable<T>>{
 	private boolean esHoja(Nodo<T> n) {
 		return n.consultarIzq() == null && n.consultarDer() == null;
 	}
+
+		/**
+	 * Determinar la cantidad de nodos que tiene un subArbol
+	 * @param elem
+	 * @return
+	 * 
+	 * Compejidad = O(n)
+	 */
+	
+	public int cantElementosEnSubArbol(T elem) {
+		return cantElementosEnSubArbol(raiz, elem);
+	}
+	
+	private int cantElementosEnSubArbol(Nodo<T> nodo, T elem) {
+		if(nodo == null) return 0;
+		
+		if(nodo.consultarElem().equals(elem)) return cantNodos(nodo);
+		
+		if(nodo.consultarElem().compareTo(elem) < 0)
+			return cantElementosEnSubArbol(nodo.consultarDer(), elem);
+		
+		return cantElementosEnSubArbol(nodo.consultarIzq(), elem); 
+	}
 	
 }
