@@ -1,6 +1,8 @@
 # DER
 
-1. Una empresa vende productos a varies clientes. Se necesitan conocer los datos personales de les clientes—i.e. nombre, apellido, DNI, dirección, y fecha de nacimiento. Cada producto tiene un nombre y un código, así como un precio unitario. Une cliente puede comprar varios productos a la empresa, y un mismo producto puede ser comprado por varies clientes. Los productos son suministrados por diferentes proveedores. Se debe tener en cuenta que un producto sólo puede ser suministrado por une proveedore, y que une proveedore puede suministrar diferentes productos. De cada proveedore se desea conocer su CUIT, nombre, y dirección.
+1. Una empresa vende productos a varies clientes. Se necesitan conocer los datos personales de les clientes—i.e. nombre, apellido, DNI, dirección, y fecha de nacimiento. Cada producto tiene un nombre y un código, así como un precio unitario. Une cliente puede comprar varios productos a la empresa, y un mismo producto puede ser comprado por varies clientes. Los productos son suministrados por diferentes proveedores. Se debe tener en cuenta que un producto sólo puede ser suministrado por une proveedore, y que une proveedore puede suministrar diferentes productos. De cada proveedore se desea conocer su CUIT, nombre, y dirección.  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/a59cd682-8b96-40e3-bb22-c04b894eb91e)
+
 
 2. Una tienda de música desea modelar a les compositores de sinfonías, a las sinfonías, y a la relación entre ambes. De les compositores se conoce su nombre y su fecha de nacimiento, mientras que de cada sinfonía se conoce el nombre de su compositore, el género, la tonalidad, y los distintos instrumentos que se utilizan para su ejecución.
 
