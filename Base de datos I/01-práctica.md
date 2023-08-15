@@ -5,6 +5,8 @@
 
 
 2. Una tienda de música desea modelar a les compositores de sinfonías, a las sinfonías, y a la relación entre ambes. De les compositores se conoce su nombre y su fecha de nacimiento, mientras que de cada sinfonía se conoce el nombre de su compositore, el género, la tonalidad, y los distintos instrumentos que se utilizan para su ejecución.
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/345c7b8d-9c9d-4b30-adc6-4087c2151d77)
+
 
 3. La panadería y confitería "El Churro de Chocolate" está organizando el delivery a sus clientes, para ello han dividido la ciudad en zonas. Cada zona tiene un nombre que la identifica. Cada cliente pertenece a una zona. Les repartidores tienen asignades clientes, cada cliente puede ser atendide por más de une repartidore, ó por ningune. A cada zona se le asigna une repartidore como jefe de esa zona. Une repartidore puede ser jefe de varias zonas ó de ninguna. De les repartidores se conoce el nombre y legajo. De les clientes se conoce el nombre, teléfono, dirección, y la fecha de la primera compra.
 
