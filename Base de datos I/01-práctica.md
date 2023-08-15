@@ -8,7 +8,9 @@
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/345c7b8d-9c9d-4b30-adc6-4087c2151d77)
 
 
-3. La panadería y confitería "El Churro de Chocolate" está organizando el delivery a sus clientes, para ello han dividido la ciudad en zonas. Cada zona tiene un nombre que la identifica. Cada cliente pertenece a una zona. Les repartidores tienen asignades clientes, cada cliente puede ser atendide por más de une repartidore, ó por ningune. A cada zona se le asigna une repartidore como jefe de esa zona. Une repartidore puede ser jefe de varias zonas ó de ninguna. De les repartidores se conoce el nombre y legajo. De les clientes se conoce el nombre, teléfono, dirección, y la fecha de la primera compra.
+3. La panadería y confitería "El Churro de Chocolate" está organizando el delivery a sus clientes, para ello han dividido la ciudad en zonas. Cada zona tiene un nombre que la identifica. Cada cliente pertenece a una zona. Les repartidores tienen asignades clientes, cada cliente puede ser atendide por más de une repartidore, ó por ningune. A cada zona se le asigna une repartidore como jefe de esa zona. Une repartidore puede ser jefe de varias zonas ó de ninguna. De les repartidores se conoce el nombre y legajo. De les clientes se conoce el nombre, teléfono, dirección, y la fecha de la primera compra.  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/d7c3e495-329a-4f9f-b290-3da634520fd9)
+
 
 4. Modificar el DER anterior para que se pueda registrar cada vez que se realiza una entrega a domicilio, le repartidore que la realizó, la fecha y hora de la entrega y el monto pagado por le cliente.
 
