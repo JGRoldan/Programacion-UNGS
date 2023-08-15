@@ -25,7 +25,8 @@
 
 7. La cooperativa de payases "Berumoddo" coordina las actuaciones de sus payases integrantes. Les payases tienen sus propias actuaciones—pueden tener más de una. De les payases se conoce su nombre y edad. Cada actuación pertenece a une únique payase y se pone en escena en un circo. De acuerdo al convenio que firmó, la cooperativa con la "Asociación de Circos Peronistas", las actuaciones son exclusivas para cada circo, pero en cada circo puede haber más de una actuación, aún correspondiente a distintes payases. Cada actuación tiene un nombre y un precio de entrada. Cada circo tiene un nombre, y una fecha de fundación.
 
-8. El Registro Civil de las Personas, desea llevar un registro de todas las personas. De cada persona se conoce su primer y segundo nombre, su apellido, su fecha de nacimiento, y su número de DNI. También se desea llevar registro acerca de quienes se han casado, y con quién. Adicionalmente, se desea llevar un registro de quienes son les xadres biológiques de cada persona, y eventualmente, de quienes son les xadres adoptives.
+8. El Registro Civil de las Personas, desea llevar un registro de todas las personas. De cada persona se conoce su primer y segundo nombre, su apellido, su fecha de nacimiento, y su número de DNI. También se desea llevar registro acerca de quienes se han casado, y con quién. Adicionalmente, se desea llevar un registro de quienes son les xadres biológiques de cada persona, y eventualmente, de quienes son les xadres adoptives.  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/6657955b-dd5b-47a0-84bd-e1baa2220ec7)
 
 9. La veterinaria "Pet Shop of Horrors" necesita llevar un control informatizado de su gestión. De cada animal—ó paciente—se desea guardar el código, el nombre, el tipo de animal, la raza, y el año de nacimiento. De cada dueñe de cada animal se desea guardar nombre, apellido, dirección, y teléfono.
 
