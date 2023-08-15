@@ -12,7 +12,8 @@
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/d7c3e495-329a-4f9f-b290-3da634520fd9)
 
 
-4. Modificar el DER anterior para que se pueda registrar cada vez que se realiza una entrega a domicilio, le repartidore que la realizó, la fecha y hora de la entrega y el monto pagado por le cliente.
+4. Modificar el DER anterior para que se pueda registrar cada vez que se realiza una entrega a domicilio, le repartidore que la realizó, la fecha y hora de la entrega y el monto pagado por le cliente.  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/57492e47-ff0b-4b78-9992-ca92337b0186)
 
 5. La cadena de restaurantes "La Angioplastía" ha relevado información acerca de les clientes y de sus preferencias. De cada persona, identificada por su documento de identidad, se conoce su nombre, el restaurante que más frecuenta, y las comidas que más le gustan. De cada restaurante, identificado por su nombre, se conocen las comidas que preparan. De cada comida se conoce el nombre que la identifica, el tiempo de preparación, y los ingredientes que lleva y en qué cantidades. De los ingredientes se conoce, nombre, proveedore, precio, y unidad en la que está expresado el precio.
 
