@@ -12,9 +12,9 @@
 
 6. Modificar el DER anterior considerando los siguientes cambios:
 
-- Una persona frecuenta varios restaurantes.
+ - Una persona frecuenta varios restaurantes.
 
-- A una persona no le gusta una comida por si sola, sino que le gusta como la sirven en determinados restaurantes.
+ - A una persona no le gusta una comida por si sola, sino que le gusta como la sirven en determinados restaurantes.
 
 7. La cooperativa de payases "Berumoddo" coordina las actuaciones de sus payases integrantes. Les payases tienen sus propias actuaciones—pueden tener más de una. De les payases se conoce su nombre y edad. Cada actuación pertenece a une únique payase y se pone en escena en un circo. De acuerdo al convenio que firmó, la cooperativa con la "Asociación de Circos Peronistas", las actuaciones son exclusivas para cada circo, pero en cada circo puede haber más de una actuación, aún correspondiente a distintes payases. Cada actuación tiene un nombre y un precio de entrada. Cada circo tiene un nombre, y una fecha de fundación.
 
