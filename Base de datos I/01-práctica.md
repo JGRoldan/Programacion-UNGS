@@ -39,7 +39,8 @@
    
    Un problema adicional que tienen en esta veterinaria, es que suele suceder que les animales que están siendo atendides, ante una distracción de les veterinaries, se pelean entre elles, y 
    les veterinaries por temor a lastimarse elles mismes no les separan. Le propietarie de la veterinaria ha puesto un premio para cada veterinarie que separa a les animales que se pelean. 
-   Por lo tanto, se desean registrar les animales que participaron en la pelea, y le veterinarie que les separo.
+   Por lo tanto, se desean registrar les animales que participaron en la pelea, y le veterinarie que les separo.  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/4d683d09-6bbf-4373-a640-1821a1272822)
 
 10. El Ministerio de Salud desea mantener un sistema de información relativo a los hospitales. A continuación, se detalla lo que se desea modelar:
 
