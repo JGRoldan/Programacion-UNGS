@@ -35,29 +35,29 @@
 
 10. El Ministerio de Salud desea mantener un sistema de información relativo a los hospitales. A continuación, se detalla lo que se desea modelar:
 
-hospital con los datos: código que lo identifica, nombre, dirección, teléfono, y cantidad de camas.
+    - hospital con los datos: código que lo identifica, nombre, dirección, teléfono, y cantidad de camas.
+   
+    - sala con los datos: código, nombre, y cantidad de camas.
+   
+    - médique con los datos: DNI, nombre, y especialidad.
+   
+    - laboratorio con los datos: código que lo identifica, nombre, dirección, teléfono.
+   
+    - paciente con los datos: DNI, número de historia clínica, número de cama, nombre, dirección, fecha de nacimiento, y sexo.
+   
+    - diagnóstico con los datos: código que lo identifica, tipo, y complicaciones.
 
-sala con los datos: código, nombre, y cantidad de camas.
+    Además, sabemos que:
 
-médique con los datos: DNI, nombre, y especialidad.
-
-laboratorio con los datos: código que lo identifica, nombre, dirección, teléfono.
-
-paciente con los datos: DNI, número de historia clínica, número de cama, nombre, dirección, fecha de nacimiento, y sexo.
-
-diagnóstico con los datos: código que lo identifica, tipo, y complicaciones.
-
-Además, sabemos que:
-
-Cada hospital tiene varias salas. Cada una de ellas pertenece a un solo hospital. En distintos hospitales pueden haber salas con el mismo código, pero esto no puede ocurrir dentro de un mismo hospital.
-
-Cada médique trabaja en un único hospital.
-
-Cada hospital trabaja con muchos laboratorios, y un laboratorio presta servicios a más de un hospital. Nos interesa conocer la descripción de cada servicio prestado por el laboratorio a un hospital, y la fecha en que se realizó.
-
-Une paciente puede estar internade en una única sala.
-
-Cada paciente puede ser atendide por más de une médique, y a su vez cada médique atenderá a varies pacientes. Nos interesa conocer las fechas de las atenciones.
-
-Cada paciente puede tener varios diagnósticos. Nos interesa saber la fecha en que se realizó cada uno. 
+    - Cada hospital tiene varias salas. Cada una de ellas pertenece a un solo hospital. En distintos hospitales pueden haber salas con el mismo código, pero esto no puede ocurrir dentro de un mismo hospital.
+   
+    - Cada médique trabaja en un único hospital.
+   
+    - Cada hospital trabaja con muchos laboratorios, y un laboratorio presta servicios a más de un hospital. Nos interesa conocer la descripción de cada servicio prestado por el laboratorio a un hospital, y la fecha en que se realizó.
+   
+    - Une paciente puede estar internade en una única sala.
+   
+    - Cada paciente puede ser atendide por más de une médique, y a su vez cada médique atenderá a varies pacientes. Nos interesa conocer las fechas de las atenciones.
+   
+    - Cada paciente puede tener varios diagnósticos. Nos interesa saber la fecha en que se realizó cada uno. 
 
