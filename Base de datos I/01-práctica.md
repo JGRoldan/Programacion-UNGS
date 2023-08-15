@@ -22,13 +22,16 @@
 
 9. La veterinaria "Pet Shop of Horrors" necesita llevar un control informatizado de su gestión. De cada animal—ó paciente—se desea guardar el código, el nombre, el tipo de animal, la raza, y el año de nacimiento. De cada dueñe de cada animal se desea guardar nombre, apellido, dirección, y teléfono.
 
-También, se desea llevar un control de cada una de las veces que se atiende a une animal, registrando la fecha, el diagnostico, el tratamiento, le veterinarie que le atendió, y el costo de la consulta. La veterinaria tiene varies veterinaries, de les cuales se desea registrar, su número de matrícula, fecha de ingreso, nombre y apellido.
+   También, se desea llevar un control de cada una de las veces que se atiende a une animal, registrando la fecha, el diagnostico, el tratamiento, le veterinarie que le atendió, y el costo 
+   de la consulta. La veterinaria tiene varies veterinaries, de les cuales se desea registrar, su número de matrícula, fecha de ingreso, nombre y apellido.
 
-Une veterinarie puede atender a varies animales, pero una consulta es atendida por une únique veterinarie.
+   Une veterinarie puede atender a varies animales, pero una consulta es atendida por une únique veterinarie.
 
-Adicionalmente, de les perres se desea guardar la fecha de su última vacuna contra la rabia, y de les gates se desea registrar el color de su pelaje.
-
-Un problema adicional que tienen en esta veterinaria, es que suele suceder que les animales que están siendo atendides, ante una distracción de les veterinaries, se pelean entre elles, y les veterinaries por temor a lastimarse elles mismes no les separan. Le propietarie de la veterinaria ha puesto un premio para cada veterinarie que separa a les animales que se pelean. Por lo tanto, se desean registrar les animales que participaron en la pelea, y le veterinarie que les separo.
+   Adicionalmente, de les perres se desea guardar la fecha de su última vacuna contra la rabia, y de les gates se desea registrar el color de su pelaje.
+   
+   Un problema adicional que tienen en esta veterinaria, es que suele suceder que les animales que están siendo atendides, ante una distracción de les veterinaries, se pelean entre elles, y 
+   les veterinaries por temor a lastimarse elles mismes no les separan. Le propietarie de la veterinaria ha puesto un premio para cada veterinarie que separa a les animales que se pelean. 
+   Por lo tanto, se desean registrar les animales que participaron en la pelea, y le veterinarie que les separo.
 
 10. El Ministerio de Salud desea mantener un sistema de información relativo a los hospitales. A continuación, se detalla lo que se desea modelar:
 
