@@ -68,5 +68,8 @@
    
     - Cada paciente puede ser atendide por más de une médique, y a su vez cada médique atenderá a varies pacientes. Nos interesa conocer las fechas de las atenciones.
    
-    - Cada paciente puede tener varios diagnósticos. Nos interesa saber la fecha en que se realizó cada uno. 
+    - Cada paciente puede tener varios diagnósticos. Nos interesa saber la fecha en que se realizó cada uno.  
+
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/97dff147-a257-45e3-b72c-4bff23f94666)
+
 
