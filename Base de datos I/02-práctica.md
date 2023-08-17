@@ -9,3 +9,5 @@ __Pasar todos los ejercicios de la práctica 1 al modelo relacional__
 6. 📝
 7. 📝
 8. ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/c4a1de12-5866-4f85-96cd-c901eb389683)
+9. ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/302b79c7-d706-4978-a2a6-e487bbe71669)
+
