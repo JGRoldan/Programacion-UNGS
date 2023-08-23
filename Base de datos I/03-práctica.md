@@ -1,3 +1,4 @@
+# DEPENDENCIAS FUNCIONALES
 1. Dadas las siguientes relaciones, indicar cuáles son las dependencias funcionales no triviales que se deberían cumplir.
    alumne(nro_legajo, nombre, apellido, dni, carrera, materia, nota_final).
 
@@ -9,7 +10,8 @@
 
    F = {cod → descr stock, cod prov → costo, costo → precio, descr → cod},
 
-   indicar cuales de las siguientes dependencias funcionales se pueden deducir de F usando los axiomas de Armstrong. En caso de que no se puedan deducir, demostrar mediante una instancia de la relación artículo que sirva de contraejemplo.
+   indicar cuales de las siguientes dependencias funcionales se pueden deducir de F usando los axiomas de Armstrong. En caso de que no se puedan deducir, demostrar mediante una instancia de la 
+   relación artículo que sirva de contraejemplo.
 
   a) cod prov → descr precio
   
