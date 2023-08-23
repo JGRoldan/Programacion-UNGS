@@ -13,12 +13,12 @@
    indicar cuales de las siguientes dependencias funcionales se pueden deducir de F usando los axiomas de Armstrong. En caso de que no se puedan deducir, demostrar mediante una instancia de la 
    relación artículo que sirva de contraejemplo.
 
-   a) cod prov → descr precio
+      a) cod prov → descr precio
   
-   b) cod → precio
+      b) cod → precio
   
-   c) descr → stock
+      c) descr → stock
   
-   d) precio → costo
+      d) precio → costo
   
-   e) descr prov → cod descr costo precio stock prov
+      e) descr prov → cod descr costo precio stock prov
