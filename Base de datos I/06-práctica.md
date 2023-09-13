@@ -62,3 +62,9 @@ _Tabla reserva_
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/1f394c97-1f4b-45ba-be24-4cff457de973)
 
 - Las cervezas que le gustan a Barney y que son servidas en el bar Rockeria.
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/9a36e48a-4b25-48cd-9b4b-d60641f9fabc)
+
+- Los bares que sirven todas las cervezas que le gustan a Misato Katsuragi.
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/2083beef-1c27-4acd-9888-0de6cd53beaa)
+
+- Los bares que sirven todas las cervezas que le gustan a Misato Katsuragi y a Ritsuko Akagi.
