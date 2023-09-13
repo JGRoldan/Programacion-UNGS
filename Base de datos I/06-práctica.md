@@ -28,3 +28,7 @@ _Tabla reserva_
 - Obtener los nombres de les marines que alquilaron el bote "Macross".
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/b6733cd7-ce1e-4925-8a06-fa51a12350b4)
 
+- Obtener los nombres de les marines que alquilaron botes rojos.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/ad060a8c-e126-4210-9086-75700edc5dda)
+
+
