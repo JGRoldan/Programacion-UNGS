@@ -31,4 +31,9 @@ _Tabla reserva_
 - Obtener los nombres de les marines que alquilaron botes rojos.
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/ad060a8c-e126-4210-9086-75700edc5dda)
 
+- Obtener los botes reservados para el 2011-06-26.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/a05e79a2-1587-4cca-a289-7e3dcf9533cf)
+
+- Obtener los botes disponibles para alquilar el 2011-06-26.
+  
 
