@@ -56,11 +56,11 @@ _Tabla reserva_
 
 ## 5
 _Tabla gusta_  
-![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/80e8dfc6-d409-4293-bf30-05ec08a04fb7)
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/80e8dfc6-d409-4293-bf30-05ec08a04fb7)  
 _Tabla frecuenta_  
-![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/5ad7bcad-479f-4dc1-88d6-9fe07d812e00)
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/5ad7bcad-479f-4dc1-88d6-9fe07d812e00)  
 _Tabla sirve_  
-![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/bfd562e6-73a8-4c66-b277-0291d6ce2a8c)
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/bfd562e6-73a8-4c66-b277-0291d6ce2a8c)  
 
 - Los nombres de todos los bares.  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/51bbbef8-2f97-4e1a-97ae-3148b64c11ee)
