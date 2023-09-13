@@ -46,4 +46,13 @@ _Tabla reserva_
 - Obtener los nombres de les marines que alquilaron sólo un bote.
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/f3cfeba4-ef98-4a30-81ad-86bfc08623f4)
 
+## 3
+- Obtener los botes disponibles para alquilar el 2011-06-26.  
+- Obtener los nombres de les marines que no alquilaron ningún bote.
+## 4
+- Obtener los nombres de les marines que alquilaron todos los botes.
+- Obtener los nombres de les marines que alquilaron todos los botes verdes.
+- Obtener las fechas en que están reservados todos los botes.
+
+## 5
 
