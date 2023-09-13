@@ -11,3 +11,7 @@ _Tabla alquiler_
 
 _Tabla reserva_  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/97d42878-94da-4c8b-bd7f-7ad18d7d5181)
+
+1-
+  a- Obtener los nombres de los botes rojos.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/3f99c97d-b154-43d7-a2b4-cae2b9273e33)
