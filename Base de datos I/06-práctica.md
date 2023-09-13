@@ -12,7 +12,7 @@ _Tabla alquiler_
 _Tabla reserva_  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/97d42878-94da-4c8b-bd7f-7ad18d7d5181)
 
-1 
+## 1 
 - Obtener los nombres de los botes rojos.
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/3f99c97d-b154-43d7-a2b4-cae2b9273e33)
 
@@ -38,4 +38,12 @@ _Tabla reserva_
   
 - Obtener los nombres de les marines que no alquilaron ningún bote.
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/1541a8a3-e98e-46e6-af0a-318a408c3280)
+
+## 2
+- Obtener los nombres de les marines que alquilaron al menos dos botes.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/2863db13-13d2-43c9-ac7d-9c77087aa0ee)
+
+- Obtener los nombres de les marines que alquilaron sólo un bote.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/f3cfeba4-ef98-4a30-81ad-86bfc08623f4)
+
 
