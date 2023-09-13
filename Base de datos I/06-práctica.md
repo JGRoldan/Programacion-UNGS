@@ -17,4 +17,14 @@ _Tabla reserva_
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/3f99c97d-b154-43d7-a2b4-cae2b9273e33)
 
 - Obtener los nombres de les marines que se inscribieron después del 2011-06-26.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/c8477752-675f-478c-b02b-57955292fc74)
+
+- Obtener los nombres de les marines que se inscribieron durante el año 2012.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/9ff77c99-1679-4e7a-95a8-68892fc3381b)
+
+- Obtener los bid’s de los botes alquilados por le marine número 3.
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/4b2b617b-9b0b-4561-bc4c-daad58d02292)
+
+- Obtener los nombres de les marines que alquilaron el bote "Macross".
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/b6733cd7-ce1e-4925-8a06-fa51a12350b4)
 
