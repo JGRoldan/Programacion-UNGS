@@ -68,3 +68,4 @@ _Tabla reserva_
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/2083beef-1c27-4acd-9888-0de6cd53beaa)
 
 - Los bares que sirven todas las cervezas que le gustan a Misato Katsuragi y a Ritsuko Akagi.
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/43433364-f6e2-4e0b-869f-58077d3e4330)
