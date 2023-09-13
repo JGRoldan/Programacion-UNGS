@@ -55,4 +55,10 @@ _Tabla reserva_
 - Obtener las fechas en que están reservados todos los botes.
 
 ## 5
+- Los nombres de todos los bares.
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/51bbbef8-2f97-4e1a-97ae-3148b64c11ee)
 
+- Los nombres de todes les bebedores.
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/1f394c97-1f4b-45ba-be24-4cff457de973)
+
+- Las cervezas que le gustan a Barney y que son servidas en el bar Rockeria.
