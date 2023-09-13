@@ -55,17 +55,24 @@ _Tabla reserva_
 - Obtener las fechas en que están reservados todos los botes.
 
 ## 5
-- Los nombres de todos los bares.
+_Tabla gusta_  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/80e8dfc6-d409-4293-bf30-05ec08a04fb7)
+_Tabla frecuenta_  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/5ad7bcad-479f-4dc1-88d6-9fe07d812e00)
+_Tabla sirve_  
+![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/bfd562e6-73a8-4c66-b277-0291d6ce2a8c)
+
+- Los nombres de todos los bares.  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/51bbbef8-2f97-4e1a-97ae-3148b64c11ee)
 
-- Los nombres de todes les bebedores.
+- Los nombres de todes les bebedores.  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/1f394c97-1f4b-45ba-be24-4cff457de973)
 
-- Las cervezas que le gustan a Barney y que son servidas en el bar Rockeria.
+- Las cervezas que le gustan a Barney y que son servidas en el bar Rockeria.  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/9a36e48a-4b25-48cd-9b4b-d60641f9fabc)
 
-- Los bares que sirven todas las cervezas que le gustan a Misato Katsuragi.
+- Los bares que sirven todas las cervezas que le gustan a Misato Katsuragi.  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/2083beef-1c27-4acd-9888-0de6cd53beaa)
 
-- Los bares que sirven todas las cervezas que le gustan a Misato Katsuragi y a Ritsuko Akagi.
+- Los bares que sirven todas las cervezas que le gustan a Misato Katsuragi y a Ritsuko Akagi.  
 ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/43433364-f6e2-4e0b-869f-58077d3e4330)
