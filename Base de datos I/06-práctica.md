@@ -56,7 +56,7 @@ _Tabla reserva_
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/ca78a85b-7a83-492d-a274-adbfb981e044)
 
 - Obtener las fechas en que están reservados todos los botes.
-  
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/8756025b-25f5-4506-a66e-727fba62d550)
 
 ## 5
 _Tabla gusta_  
