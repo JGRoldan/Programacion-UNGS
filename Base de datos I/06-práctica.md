@@ -34,11 +34,6 @@ _Tabla reserva_
 - Obtener los botes reservados para el 2011-06-26.
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/a05e79a2-1587-4cca-a289-7e3dcf9533cf)
 
-- Obtener los botes disponibles para alquilar el 2011-06-26.
-  
-- Obtener los nombres de les marines que no alquilaron ningún bote.
-  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/1541a8a3-e98e-46e6-af0a-318a408c3280)
-
 ## 2
 - Obtener los nombres de les marines que alquilaron al menos dos botes.
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/2863db13-13d2-43c9-ac7d-9c77087aa0ee)
