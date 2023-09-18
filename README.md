@@ -98,10 +98,10 @@ Lenguaje:
 
 ### Contenidos
 
-| Práctica 0 | Práctica 1 | Práctica 2 | Práctica 3 | 
-| ---------- | ---------- | ---------- | ---------- | 
-| - | - | - | - |
-| - |  | - | - |
+| TP 1 | TP2 | TP3 | 
+| ---------- | ---------- | ---------- |
+| Lights out | Clustering | - |
+| Java + WindowBuilder | Grafo - BFS - AGM | - |
 
 # _Base de datos I_
 
