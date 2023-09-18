@@ -53,7 +53,8 @@ _Tabla reserva_
   ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/6fc1c8ae-c8c6-4f9d-ade9-15dbbb3e5b1b)
 
 - Obtener los nombres de les marines que alquilaron todos los botes verdes.
-  
+  ![image](https://github.com/JGRoldan/Programacion-UNGS/assets/71336562/ca78a85b-7a83-492d-a274-adbfb981e044)
+
 - Obtener las fechas en que están reservados todos los botes.
   
 
