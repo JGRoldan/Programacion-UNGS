@@ -107,16 +107,18 @@ Lenguaje:
 
 Lenguaje:
 
-![](https://img.shields.io/badge/go-3776AB?style=for-the-badge&logo=C&logoColor=white)
+![](https://img.shields.io/badge/go-3776AB?style=for-the-badge&logo=go&logoColor=white)
 
 ### Contenidos
 
 | Práctica 1 | Práctica 2 | Práctica 3 | 
 | ---------- | ---------- | ---------- | 
 | DER | Modelo Relacional | - |
+
 | Práctica 4 | Práctica 5 | Práctica 6 | 
 | ---------- | ---------- | ---------- | 
 | - | - | - |
+
 | TP | 
 | ---------- | 
 | Sistema para gestionar un supermercado | 
