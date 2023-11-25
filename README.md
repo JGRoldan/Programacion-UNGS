@@ -100,14 +100,24 @@ Lenguaje:
 
 | TP 1 | TP2 | TP3 | 
 | ---------- | ---------- | ---------- |
-| Lights out | Clustering | - |
-| Java + WindowBuilder | Grafo - BFS - AGM | - |
+| Lights out | Clustering | Conjunto dominante minimal |
+| Java + WindowBuilder | Grafo - BFS - AGM | Algoritmo holistico - Fuerza Bruta |
 
 # _Base de datos I_
+
+Lenguaje:
+
+![](https://img.shields.io/badge/go-3776AB?style=for-the-badge&logo=C&logoColor=white)
 
 ### Contenidos
 
 | Práctica 1 | Práctica 2 | Práctica 3 | 
 | ---------- | ---------- | ---------- | 
 | DER | Modelo Relacional | - |
+| Práctica 4 | Práctica 5 | Práctica 6 | 
+| ---------- | ---------- | ---------- | 
+| - | - | - |
+| TP | 
+| ---------- | 
+| Sistema para gestionar un supermercado | 
 
