@@ -1,6 +1,6 @@
 # Conjunto Dominante
 
-El trabajo consistió en realizar un algoritmo heurístico y por fuerza bruta para calcular el conjunto dominante de grafos.  
+El trabajo consistió en realizar un algoritmo holístico y por fuerza bruta para calcular el conjunto dominante de grafos.  
 Los grafos se pueden cargar dinámicamente en archivos _json_ siguiendo la estructura que se encuentra en la carpeta JSON. 
 La GUI cuenta con un botón para calcular el conjunto dominante y otro para ver visualmente el grafo.  
 
