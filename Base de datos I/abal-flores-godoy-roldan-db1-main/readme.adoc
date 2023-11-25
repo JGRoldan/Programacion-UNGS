@@ -1,0 +1,62 @@
+= Bases de Datos I : Trabajo Práctico
+
+Abal_Fernando<fernando_101296@hotmail.com>; Flores_Mauro<mauroezequielflores48@gmail.com>; Godoy_Ignacio<nachogodoy04@gmail.com>; Roldan_Gaston <roldan.gaston95@gmail.com>;
+
+v1, {docdate}. 
+Docentes: Hernan Rondelli y Ximena Ebertz
+:numbered:
+
+== Introducción
+
+Se busca implementar un sistema para administrar el ingreso, la cancelación, y la entrega de pedidos, mantener
+toda la información de les clientes y de los productos, y controlar que el stock disponible
+y el reservado de los productos sea actualizado correctamente.
+Además les clientes deben ser informados vía email cuando ocurran eventos importantes sobre
+sus pedidos. Por otro lado, es necesario poder generar solicitudes de reposición para aquellos
+productos que hayan quedado con bajo stock.
+
+== Descripción
+
+
+A continuación enlistaremos varios de los problemas encontrados al momento de generar el código y las soluciones que les dimos a los mismos.
+
+=== Problemas encontrados
+
+. *Problemas con los commits por cambios hechos al mismo tiempo o errores al hacer commits.*
+. *Error al importar carpetas*
+. *Error al crear foreing key antes que las primarykeys*
+. *Error al eliminar las foreing key antes que las primarykey*
+. *Error al tener los id como enteros es vez de tenerlos como serial*
+. *En varios archivos se repite la conexión con la base de datos, para evitar esto quisimos realizar una sola llamada 
+   a esta misma desde el main y pasarle la db como parámetro a las funciones que las utilicen*
+. *Error en lógica de query cierre pedido al validar que tenga al menos un producto, pensamos en verificar la cantidad de pedido.*
+
+=== Soluciones
+
+. Las soluciónes que obtuvimos fueron gracias a leer documentación oficial, diversos sitios de internet, como así también el material del drive.
+. Para solucionar el error n°5, tuvimos que establecer la PK de tres tablas (pedido, error, envio_email) de tipo SERIAL.
+. Con respecto al error n°6, no pudimos solucionar el mismo y debido a la falta de tiempo decidimos establecer la conexión en cada uno de los archivos que lo necesiten.
+. Respecto al error n°7, finalmente asumimos que la cantidad que llega es mayor a 0. Entonces verificamos si existe el id_pedido en la tabla pedido detalle
+
+== Implementación
+
+Para que el código sea de fácil lectura por cualquier usuarie decidimos crear una carpeta "data" 
+que a su vez está subdivida en varios subcarpetas cada una correspondiente a su función. Por ejemplo, 
+store_procedure, sql, json, archivos_go, entre otras.  
+
+Por otro lado, decidimos crear un menú principal a modo de GUI para que sea accesible y de fácil implementación
+en la consola de la VM. El menu principal tiene varias opciones dentro de estas, gestionar la base de datos,
+store procedure , triggers y ejecutar NoSql.
+A su vez, dentro de cada uno de estos hay submenús cada uno con sus funciones correspondientes.
+
+== Conclusiones
+
+En el transcurso este proyecto, hemos logrado comprender las diversas complejidades y eficiencias del lenguaje de programación Go, así como las bases de datos construidas con PostgreSQL, al compararlas con una base NoSQL implementada mediante BoltDB.
+Además, hemos puesto en práctica el uso de GIT y Linux en una máquina virtual.
+
+Este trabajo ha permitido concluir que implementar lógica directamente en la base de datos resulta considerablemente más eficiente que realizarla en un lenguaje como Go.
+Asimismo, hemos profundizado en las diversas funciones ofrecidas tanto por Go como por PostgreSQL, enriqueciendo nuestra comprensión de estas herramientas.
+
+También nos ayudó a mejorar la organización en equipo. Porque para trabajar en git de manera correcta y prolija, tuvimos que comunicarnos bastante.
+Al trabajar en equipo, compartiendo pantalla y codificando en conjunto, nos permitió encontrar errores más rápidamente y aprender como pensábamos
+a la hora de escribir código.

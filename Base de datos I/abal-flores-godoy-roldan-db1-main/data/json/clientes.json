@@ -1,0 +1,182 @@
+[
+	{
+		"id_usuarie": 1,
+		"nombre": "Ken",
+		"apellido": "Thompson",
+		"dni": 5153057,
+		"fecha_nacimiento": "1995-05-05",
+		"telefono": "15-2889-7948",
+		"email": "ken@thompson.org"
+	},
+	{
+		"id_usuarie": 2,
+		"nombre": "Dennis",
+		"apellido": "Ritchie",
+		"dni": 25610126,
+		"fecha_nacimiento": "1955-04-11",
+		"telefono": "15-7811-5045",
+		"email": "dennis@ritchie.org"
+	},
+	{
+		"id_usuarie": 3,
+		"nombre": "Donald",
+		"apellido": "Knuth",
+		"dni": 9168297,
+		"fecha_nacimiento": "1984-04-05",
+		"telefono": "15-2780-6005",
+		"email": "don@knuth.org"
+	},
+	{
+		"id_usuarie": 4,
+		"nombre": "Rob",
+		"apellido": "Pike",
+		"dni": 4915593,
+		"fecha_nacimiento": "1946-08-16",
+		"telefono": "15-1114-9719",
+		"email": "rob@pike.org"
+	},
+	{
+		"id_usuarie": 5,
+		"nombre": "Douglas",
+		"apellido": "McIlroy",
+		"dni": 33187055,
+		"fecha_nacimiento": "1939-06-09",
+		"telefono": "15-9625-0245",
+		"email": "douglas@mcilroy.org"
+	},
+	{
+		"id_usuarie": 6,
+		"nombre": "Brian",
+		"apellido": "Kernighan",
+		"dni": 13897948,
+		"fecha_nacimiento": "1992-11-22",
+		"telefono": "15-6410-6066",
+		"email": "brian@kernighan.org"
+	},
+	{
+		"id_usuarie": 7,
+		"nombre": "Bill",
+		"apellido": "Joy",
+		"dni": 34115045,
+		"fecha_nacimiento": "1954-02-04",
+		"telefono": "15-4215-8655",
+		"email": "bill@joy.org"
+	},
+	{
+		"id_usuarie": 8,
+		"nombre": "Marshall Kirk",
+		"apellido": "McKusick",
+		"dni": 9806005,
+		"fecha_nacimiento": "1995-12-27",
+		"telefono": "15-5197-4379",
+		"email": "marshall_kirk@mckusick.org"
+	},
+	{
+		"id_usuarie": 9,
+		"nombre": "Theo",
+		"apellido": "de Raadt",
+		"dni": 5149719,
+		"fecha_nacimiento": "1950-02-07",
+		"telefono": "15-6470-9444",
+		"email": "theo@deraadt.org"
+	},
+	{
+		"id_usuarie": 10,
+		"nombre": "Cristina",
+		"apellido": "Kirchner",
+		"dni": 6250245,
+		"fecha_nacimiento": "1990-08-17",
+		"telefono": "15-5291-0113",
+		"email": "cfk@fpv.gov.ar"
+	},
+	{
+		"id_usuarie": 11,
+		"nombre": "Diego",
+		"apellido": "Maradona",
+		"dni": 19158655,
+		"fecha_nacimiento": "1985-02-27",
+		"telefono": "15-3361-4854",
+		"email": "diego@dios.com.ar"
+	},
+	{
+		"id_usuarie": 12,
+		"nombre": "Martín",
+		"apellido": "Palermo",
+		"dni": 5974379,
+		"fecha_nacimiento": "1918-06-09",
+		"telefono": "15-9877-3169",
+		"email": "martin@palermo.com.ar"
+	},
+	{
+		"id_usuarie": 13,
+		"nombre": "Guillermo",
+		"apellido": "Barros Schelotto",
+		"dni": 3910113,
+		"fecha_nacimiento": "1982-05-03",
+		"telefono": "15-5020-5695",
+		"email": "guille@melli.com.ar"
+	},
+	{
+		"id_usuarie": 14,
+		"nombre": "Susú",
+		"apellido": "Pecoraro",
+		"dni": 7547862,
+		"fecha_nacimiento": "1935-04-03",
+		"telefono": "15-6695-9505",
+		"email": "susu@pecoraro.com.ar"
+	},
+	{
+		"id_usuarie": 15,
+		"nombre": "Norma",
+		"apellido": "Aleandro",
+		"dni": 26614854,
+		"fecha_nacimiento": "1992-03-18",
+		"telefono": "15-9155-4115",
+		"email": "norma@aleandro.com.ar"
+	},
+	{
+		"id_usuarie": 16,
+		"nombre": "Soledad",
+		"apellido": "Silveyra",
+		"dni": 7773169,
+		"fecha_nacimiento": "1957-07-28",
+		"telefono": "15-9184-4522",
+		"email": "sole@silveyra.com.ar"
+	},
+	{
+		"id_usuarie": 17,
+		"nombre": "Libertad",
+		"apellido": "Lamarque",
+		"dni": 32205695,
+		"fecha_nacimiento": "1971-03-07",
+		"telefono": "15-6363-9690",
+		"email": "libertad@lamarque.com.ar"
+	},
+	{
+		"id_usuarie": 18,
+		"nombre": "Ana María",
+		"apellido": "Picchio",
+		"dni": 19020903,
+		"fecha_nacimiento": "1946-08-06",
+		"telefono": "15-4819-2117",
+		"email": "ana.maria@picchio.com.ar"
+	},
+	{
+		"id_usuarie": 19,
+		"nombre": "Niní",
+		"apellido": "Marshall",
+		"dni": 10535508,
+		"fecha_nacimiento": "1951-09-07",
+		"telefono": "15-9799-6045",
+		"email": "nini@marshall.com"
+	},
+	{
+		"id_usuarie": 20,
+		"nombre": "Claudia",
+		"apellido": "Lapacó",
+		"dni": 30934609,
+		"fecha_nacimiento": "1961-08-03",
+		"telefono": "15-2005-4879",
+		"email": "claudia@lapaco.com.ar"
+	}
+]

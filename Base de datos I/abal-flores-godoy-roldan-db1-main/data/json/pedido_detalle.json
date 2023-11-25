@@ -1,0 +1,38 @@
+[
+	{
+		"id_pedido": 1,
+		"id_producto": 3,
+		"cantidad": 5,
+		"precio_unitario": 750 
+	},
+	{
+		"id_pedido": 1,
+		"id_producto": 1,
+		"cantidad": 5,
+		"precio_unitario": 1200
+	},
+	{
+		"id_pedido": 1,
+		"id_producto": 2,
+		"cantidad": 2,
+		"precio_unitario": 900
+	},
+	{
+		"id_pedido": 2,
+		"id_producto": 1,
+		"cantidad": 1,
+		"precio_unitario": 1200
+	},
+	{
+		"id_pedido": 2,
+		"id_producto": 2,
+		"cantidad": 2,
+		"precio_unitario": 900
+	},
+	{
+		"id_pedido": 2,
+		"id_producto": 3,
+		"cantidad": 3,
+		"precio_unitario": 750
+	}
+]

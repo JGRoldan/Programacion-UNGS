@@ -1,0 +1,182 @@
+[
+	{
+		"id_producto": 1,
+		"nombre": "Shampoo Liso Perfecto Swing x 600 ml",
+		"precio_unitario": 1200,
+		"stock_disponible": 10,
+		"stock_reservado": 0,
+		"punto_reposicionicion": 5,
+		"stock_maximo": 50
+	},
+	{
+		"id_producto": 2,
+		"nombre": "Leche Chocolatada Chochoco x 1000 ml",
+		"precio_unitario": 900,
+		"stock_disponible": 15,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 50
+	},
+	{
+		"id_producto": 3,
+		"nombre": "Salchichas Alemanas Patyviena x 4 un",
+		"precio_unitario": 750,
+		"stock_disponible": 20,
+		"stock_reservado": 0,
+		"punto_reposicion": 10,
+		"stock_maximo": 60
+	},
+	{
+		"id_producto": 4,
+		"nombre": "Helado DDL, Frutilla y Chocolate Noel x 1 kg",
+		"precio_unitario": 2500,
+		"stock_disponible": 5,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 20
+	},
+	{
+		"id_producto": 5,
+		"nombre": "Café Molido Torrado al Grano de Café Cabrales x 500 gr",
+		"precio_unitario": 1600,
+		"stock_disponible": 12,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 30
+	},
+	{
+		"id_producto": 6,
+		"nombre": "Cereales Aritos Frutales Granix x 130 gr",
+		"precio_unitario": 500,
+		"stock_disponible": 18,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 30
+	},
+	{
+		"id_producto": 7,
+		"nombre": "Azúcar Común Tipo A SIC x 1 kg",
+		"precio_unitario": 700,
+		"stock_disponible": 25,
+		"stock_reservado": 0,
+		"punto_reposicion": 10,
+		"stock_maximo": 100
+	},
+	{
+		"id_producto": 8,
+		"nombre": "Ñoquis De Papa Aliada x 1 kg",
+		"precio_unitario": 800,
+		"stock_disponible": 8,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 30
+	},
+	{
+		"id_producto": 9,
+		"nombre": "Harina de Trigo 0/3 Seleccionada x 5 kg",
+		"precio_unitario": 1000,
+		"stock_disponible": 30,
+		"stock_reservado": 0,
+		"punto_reposicion": 15,
+		"stock_maximo": 100
+	},
+	{
+		"id_producto": 10,
+		"nombre": "Yerba Mate Tradicional Clasica Piporé x 500 gr",
+		"precio_unitario": 950,
+		"stock_disponible": 32,
+		"stock_reservado": 0,
+		"punto_reposicion": 10,
+		"stock_maximo": 50
+	},
+	{
+		"id_producto": 11,
+		"nombre": "Máquina Para Afeitar Turbo Mach3 Gillette x 4 un",
+		"precio_unitario": 3200,
+		"stock_disponible": 4,
+		"stock_reservado": 0,
+		"punto_reposicion": 2,
+		"stock_maximo": 10
+	},
+	{
+		"id_producto": 12,
+		"nombre": "Jabón en Polvo Lavado a Mano Granby x 3 kg",
+		"precio_unitario": 1950,
+		"stock_disponible": 23,
+		"stock_reservado": 0,
+		"punto_reposicion": 10,
+		"stock_maximo": 50
+	},
+	{
+		"id_producto": 13,
+		"nombre": "Queso Cremoso Cuartirolo Reducido c/s trozado Verónica x 1 kg",
+		"precio_unitario": 2000,
+		"stock_disponible": 10,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 20
+	},
+	{
+		"id_producto": 14,
+		"nombre": "Jugo Listo Naranja Ades x 200 ml",
+		"precio_unitario": 200,
+		"stock_disponible": 15,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 50
+	},
+	{
+		"id_producto": 15,
+		"nombre": "Rollo de Cocina Flores 60 paños Elite x 3 un",
+		"precio_unitario": 650,
+		"stock_disponible": 40,
+		"stock_reservado": 0,
+		"punto_reposicion": 20,
+		"stock_maximo": 100
+	},
+	{
+		"id_producto": 16,
+		"nombre": "Vino Tinto Blend Dolores x 750 ml",
+		"precio_unitario": 1450,
+		"stock_disponible": 6,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 20
+	},
+	{
+		"id_producto": 17,
+		"nombre": "Miel Frasco Taeq x 500 gr",
+		"precio_unitario": 1300,
+		"stock_disponible": 12,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 20
+	},
+	{
+		"id_producto": 18,
+		"nombre": "Raviol x 1 kilo 4 quesos Mendia x 1 kg",
+		"precio_unitario": 1750,
+		"stock_disponible": 20,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 30
+	},
+	{
+		"id_producto": 19,
+		"nombre": "Queso Tybo Horma Lactovita x 1 kg",
+		"precio_unitario": 2700,
+		"stock_disponible": 10,
+		"stock_reservado": 0,
+		"punto_reposicion": 5,
+		"stock_maximo": 30
+	},
+	{
+		"id_producto": 20,
+		"nombre": "Café Molido Torrado Bonafide x 1 kg",
+		"precio_unitario": 3400,
+		"stock_disponible": 4,
+		"stock_reservado": 0,
+		"punto_reposicion": 2,
+		"stock_maximo": 10
+	}
+]

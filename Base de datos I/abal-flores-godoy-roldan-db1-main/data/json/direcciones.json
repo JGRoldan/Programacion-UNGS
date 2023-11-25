@@ -1,0 +1,156 @@
+[
+	{
+		"id_usuarie": 1,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Rivadavia 3855, 4A",
+		"localidad": "Almagro",
+		"codigo_postal": "B1636FDA"
+	},
+	{
+		"id_usuarie": 2,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Las Heras 3215, 2B",
+		"localidad": "Palermo",
+		"codigo_postal": "B7721GBF"
+	},
+	{
+		"id_usuarie": 3,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Antártida Arg. 703, 5C",
+		"localidad": "Lomas de Zamora",
+		"codigo_postal": "B1821HKD"
+	},
+	{
+		"id_usuarie": 4,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Centenario 72, 1D",
+		"localidad": "San Isidro",
+		"codigo_postal": "B6766XJI"
+	},
+	{
+		"id_usuarie": 5,
+		"id_direccion_entrega": 1,
+		"direccion": "Ruta 8 3202, PB",
+		"localidad": "San Miguel",
+		"codigo_postal": "B5823AEB"
+	},
+	{
+		"id_usuarie": 6,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Don Bosco 2680, 1B",
+		"localidad": "San Justo",
+		"codigo_postal": "B8591ARU"
+	},
+	{
+		"id_usuarie": 7,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Santa Fé 2468, 8B",
+		"localidad": "Recoleta",
+		"codigo_postal": "B6592ZCH"
+	},
+	{
+		"id_usuarie": 7,
+		"id_direccion_entrega": 2,
+		"direccion": "Av. Corrientes 2558, 3B",
+		"localidad": "Balvanera",
+		"codigo_postal": "B2403JAJ"
+	},
+	{
+		"id_usuarie": 8,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Colón 394, 4B",
+		"localidad": "Mendoza",
+		"codigo_postal": "B2510BTM"
+	},
+	{
+		"id_usuarie": 9,
+		"id_direccion_entrega": 1,
+		"direccion": "Perón 989, 2B",
+		"localidad": "San Miguel",
+		"codigo_postal": "B8294CXB"
+	},
+	{
+		"id_usuarie": 10,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Constitución 7570, 5E",
+		"localidad": "Mar del Plata",
+		"codigo_postal": "B3332EKY"
+	},
+	{
+		"id_usuarie": 11,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Rivadavia 5730, 6A",
+		"localidad": "Caballito",
+		"codigo_postal": "B8142QWD"
+	},
+	{
+		"id_usuarie": 11,
+		"id_direccion_entrega": 2,
+		"direccion": "Colombres 92, 3D",
+		"localidad": "Avellaneda",
+		"codigo_postal": "B1390CPB"
+	},
+	{
+		"id_usuarie": 12,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Vergara 1900, 1A",
+		"localidad": "Morón",
+		"codigo_postal": "B9419XPV"
+	},
+	{
+		"id_usuarie": 13,
+		"id_direccion_entrega": 1,
+		"direccion": "Alvear 2486, 3A",
+		"localidad": "Villa Ballester",
+		"codigo_postal": "B5579ABM"
+	},
+	{
+		"id_usuarie": 14,
+		"id_direccion_entrega": 1,
+		"direccion": "H. Yrigoyen 13200, 3C",
+		"localidad": "Adrogué",
+		"codigo_postal": "B5030WUE"
+	},
+	{
+		"id_usuarie": 15,
+		"id_direccion_entrega": 1,
+		"direccion": "Brown 266, 4C",
+		"localidad": "Bahía Blanca",
+		"codigo_postal": "B5047JAX"
+	},
+	{
+		"id_usuarie": 16,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Cabildo 2254, 3B",
+		"localidad": "Belgrano",
+		"codigo_postal": "B1390CPB"
+	},
+	{
+		"id_usuarie": 17,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. O Higgins 332, 2B",
+		"localidad": "Córdoba",
+		"codigo_postal": "B1515DLS"
+	},
+	{
+		"id_usuarie": 18,
+		"id_direccion_entrega": 1,
+		"direccion": "Gral. Urquiza 4785, PB",
+		"localidad": "Caseros",
+		"codigo_postal": "B1663QLO"
+	},
+	{
+		"id_usuarie": 19,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Scalabrini Ortiz 3149, 5B",
+		"localidad": "Palermo",
+		"codigo_postal": "B1613ZZT"
+	},
+	{
+		"id_usuarie": 20,
+		"id_direccion_entrega": 1,
+		"direccion": "Av. Santa Rosa 62, 4C",
+		"localidad": "Castelar",
+		"codigo_postal": "B1615QLO"
+	}
+]

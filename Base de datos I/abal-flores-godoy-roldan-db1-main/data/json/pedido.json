@@ -1,0 +1,27 @@
+
+[
+	{
+		"id_pedido":1 ,
+		"f_pedido":"2023-11-16" ,
+		"fecha_entrega":"2023-11-18" ,
+		"hora_entrega_desde":"10:10:10" ,
+		"hora_entrega_hasta":"12:10:10" ,
+		"id_usuarie": 2,
+		"id_direccion_entrega":2 ,
+		"monto_total": 11550,
+		"costo_envio": 300,
+		"estado": "entregado"  
+	},
+	{
+		"id_pedido":2 ,
+		"f_pedido":"2023-11-16" ,
+		"fecha_entrega":"2023-11-19" ,
+		"hora_entrega_desde":"12:10:10" ,
+		"hora_entrega_hasta":"14:10:10" ,
+		"id_usuarie": 3,
+		"id_direccion_entrega":1 ,
+		"monto_total": 5250,
+		"costo_envio": 300,
+		"estado": "entregado"  
+	}
+]

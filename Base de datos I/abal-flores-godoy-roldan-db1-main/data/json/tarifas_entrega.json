@@ -1,0 +1,74 @@
+[
+	{
+		"codigo_postal_corto": "1390",
+		"costo": 200
+	},
+	{
+		"codigo_postal_corto": "1515",
+		"costo": 200
+	},
+	{
+		"codigo_postal_corto": "1613",
+		"costo": 0
+	},
+	{
+		"codigo_postal_corto": "1615",
+		"costo": 0
+	},
+	{
+		"codigo_postal_corto": "1663",
+		"costo": 0
+	},
+	{
+		"codigo_postal_corto": "1821",
+		"costo": 300
+	},
+	{
+		"codigo_postal_corto": "2403",
+		"costo": 400
+	},
+	{
+		"codigo_postal_corto": "2510",
+		"costo": 400
+	},
+	{
+		"codigo_postal_corto": "3332",
+		"costo": 200
+	},
+	{
+		"codigo_postal_corto": "5030",
+		"costo": 500
+	},
+	{
+		"codigo_postal_corto": "5047",
+		"costo": 500
+	},
+	{
+		"codigo_postal_corto": "5579",
+		"costo": 500
+	},
+	{
+		"codigo_postal_corto": "5823",
+		"costo": 500
+	},
+	{
+		"codigo_postal_corto": "6592",
+		"costo": 300
+	},
+	{
+		"codigo_postal_corto": "7721",
+		"costo": 300
+	},
+	{
+		"codigo_postal_corto": "8142",
+		"costo": 400
+	},
+	{
+		"codigo_postal_corto": "8591",
+		"costo": 400
+	},
+	{
+		"codigo_postal_corto": "9419",
+		"costo": 400
+	}
+]

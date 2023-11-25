@@ -1,0 +1,101 @@
+[
+	{
+		"id_orden": 1,
+		"operacion": "creación",
+		"id_usuarie": 5,
+		"id_direccion_entrega": 1
+	},
+	{
+		"id_orden": 2,
+		"operacion": "producto",
+		"id_pedido": 1,
+		"id_producto": 16,
+		"cantidad": 2
+	},
+	{
+		"id_orden": 3,
+		"operacion": "producto",
+		"id_pedido": 1,
+		"id_producto": 14,
+		"cantidad": 4
+	},
+	{
+		"id_orden": 4,
+		"operacion": "producto",
+		"id_pedido": 1,
+		"id_producto": 11,
+		"cantidad": 1
+	},
+	{
+		"id_orden": 5,
+		"operacion": "cierre",
+		"id_pedido": 1,
+		"fecha_hora_entrega": "2023-11-17 15:30"
+	},
+	{
+		"id_orden": 6,
+		"operacion": "entrega",
+		"id_pedido": 1
+	},
+	{
+		"id_orden": 7,
+		"operacion": "creación",
+		"id_usuarie": 11,
+		"id_direccion_entrega": 2
+	},
+	{
+		"id_orden": 8,
+		"operacion": "producto",
+		"id_pedido": 2,
+		"id_producto": 11,
+		"cantidad": 4
+	},
+	{
+		"id_orden": 9,
+		"operacion": "cierre",
+		"id_pedido": 2,
+		"fecha_hora_entrega": "2023-11-17 16:00"
+	},
+	{
+		"id_orden": 10,
+		"operacion": "cierre",
+		"id_pedido": 3,
+		"fecha_hora_entrega": "2023-11-17 13:00"
+	},
+	{
+		"id_orden": 11,
+		"operacion": "producto",
+		"id_pedido": 2,
+		"id_producto": 11,
+		"cantidad": 2
+	},
+	{
+		"id_orden": 12,
+		"operacion": "producto",
+		"id_pedido": 2,
+		"id_producto": 25,
+		"cantidad": 2
+	},
+	{
+		"id_orden": 13,
+		"operacion": "producto",
+		"id_pedido": 2,
+		"id_producto": 3,
+		"cantidad": 5
+	},
+	{
+		"id_orden": 14,
+		"operacion": "cancelación",
+		"id_pedido": 2
+	},
+	{
+		"id_orden": 15,
+		"operacion": "cancelación",
+		"id_pedido": 4
+	},
+	{
+		"id_orden": 16,
+		"operacion": "cancelación",
+		"id_pedido": 1
+	}
+]
