@@ -1,6 +1,6 @@
 = Bases de Datos I : Trabajo Práctico
 
-Abal_Fernando<fernando_101296@hotmail.com>; Flores_Mauro<mauroezequielflores48@gmail.com>; Godoy_Ignacio<nachogodoy04@gmail.com>; Roldan_Gaston <roldan.gaston95@gmail.com>;
+Abal_Fernando, Flores_Mauro, Godoy_Ignacio, Roldan_Gaston;
 
 v1, {docdate}. 
 Docentes: Hernan Rondelli y Ximena Ebertz
