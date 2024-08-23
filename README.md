@@ -9,6 +9,7 @@
 - Programación II 
 - Programación III 
 - Base de datos I
+- Ingenieria de Software I
 
 # _Organización del computador I_
 
@@ -122,4 +123,20 @@ Lenguaje:
 | TP | 
 | ---------- | 
 | Sistema para gestionar un supermercado | 
+
+# Ingenieria de software I_
+
+Lenguaje:
+
+![](https://img.shields.io/badge/js-000?style=for-the-badge&logo=javascript&logoColor=yellow)
+
+### Contenidos
+
+| TP | 
+| ---------- | 
+| Sistema para promocionar servicios de una comunidad. | 
+| Requerimientos. | 
+| Casos de Uso. |
+| Diagrama UML. |
+| Diagrama de arquitectura. |
 
