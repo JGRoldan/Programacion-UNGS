@@ -1,0 +1,39 @@
+aside h3{
+    padding: 20px 0 20px 0;
+}
+.filter-card-container aside h3{
+    font-size: 2rem;
+}
+
+.form-group {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

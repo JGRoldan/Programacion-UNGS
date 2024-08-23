@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝Pendientes</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <a href="../../index.html">
+                        <img class="logo-portal" src="../images/logo.png" alt="Logo del Portal">
+                    </a>  
+                </div>
+                <ul>
+                    <a href="../../index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="#" id="pendingLink">
+                        <li>Pendientes</li>
+                    </a>
+                    <a href="./assets/pages/login.html" id="loginLink">
+                        <li>Login</li>
+                    </a>
+                    <a href="./assets/pages/register.html" id="registerLink">
+                        <li>Register</li>
+                    </a>
+                    <a href="#" id="logoutLink">
+                        <li>Logout</li>
+                    </a>
+                    <li id="username">ADMIN</li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contenedor-general">
+            <section class="pendiente-container">
+                <aside>
+                    <h2>Emprendimientos por aceptar</h2>
+                    <div class="pendiente-card-container">
+    
+                    </div>
+                </aside>
+            </section>
+            <section class="deshabilitado-container">
+                <aside>
+                    <h2>Emprendimientos deshabilitados</h2>
+                    <div class="disabled-card-container">
+    
+                    </div>
+                </aside>
+            </section>
+            <footer>
+                ©2024 Ing.Soft.I - Designed by Sebastian | Franco | Mauro | Gaston 
+            </footer>
+        </div>
+    </div>
+    <script src="../script/pendientes.js" type="module"></script>
+    <script src="../script/logout.js" type="module"></script>
+</body>
+</html>

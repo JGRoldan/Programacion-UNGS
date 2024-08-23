@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("./helper/header.css");
+@import url("./helper/filter.css");
+@import url("./helper/card.css");
+@import url("./helper/footer.css");
+@import url("./helper/login.css");
+@import url("./helper/pendientes.css");
+@import url("./helper/donaciones.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+}
+
+ul li{list-style: none;}
+
+.donation-list{
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.wrapper{
+    display: flex; 
+    width: 100%;
+    gap: 50px;   
+    animation: scroll 15s linear infinite;
+}
+.wrapper a{
+    text-decoration: none;
+    color:black;
+}
+.wrapper a p{
+    width: 500px;
+    font-size: 1.4rem;
+    font-family: "Playfair Display", serif;
+}
+
+.contenedor-mapa{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    background-color: #fefefe;
+    max-width: 530px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.18);
+}
+
+#map {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 500px;
+}
+.close-mapa {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close-mapa:hover {
+    cursor: pointer;
+}
+
+.lista-direcciones li{
+    list-style: disc;
+}
+
+@keyframes scroll {
+    to{
+        translate: calc(-4*15rem);
+    }
+}
+@media (max-width: 768px) {
+    #map {
+        width: 300px;
+        height: 300px;
+    }
+}

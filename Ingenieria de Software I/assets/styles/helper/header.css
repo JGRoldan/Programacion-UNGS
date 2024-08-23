@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+.logo-container{
+    width: 40px;
+}
+
+.logo-portal{
+    width: 100%;
+    object-fit: cover;
+}

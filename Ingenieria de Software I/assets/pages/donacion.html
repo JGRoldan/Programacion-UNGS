@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones 💰</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+
+</head>
+<body>
+    <div class="main-container login-main">
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <a href="../../index.html">
+                        <img class="logo-portal" src="../images/logo.png" alt="Logo del Portal">
+                    </a>  
+                </div>
+                <ul>
+                    <a href="../../index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./register.html" id="registerLink">
+                        <li>Register</li>
+                    </a>
+                    <a href="./login.html" id="loginLink" >
+                        <li>Login</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section class="login-container">
+            <h1>Elegi un método de pago</h1>
+            <div>
+                <button class="btn-generic btn-cuenta-pago">CUENTA PAGO</button>
+                <button class="btn-generic btn-pago-net">PAGO NET</button>
+            </div>
+        </section>
+        <!-- Modal para Cuenta Pago -->
+        <div id="modal-cuenta-pago" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="cuenta-pago-container">
+                    <h2>CUENTA PAGO</h2>
+                    <p> <b>Metodo Seleccionado:</b> Transferencia</p>
+                    <div>
+                        <p> <b>Ingrese la cantidad a transferir</b></p>
+                        <input style="width: 100px;" type="number" name="cuenta-pago-monto" id="cuenta-pago-monto" min="100">
+                    </div>
+                    <div>
+                        <button class="btn-generic btn-pagar btn-donacion-cuenta-pago">PAGAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para Pago Net -->
+        <div id="modal-pago-net" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="pago-net-container">
+                    <h2>PAGO NET</h2>
+                    <p> <b>Metodo Seleccionado:</b> Pago en sucursal <span id="random-sucursal"></span></p>
+                    <div>
+                        <p> <b>Ingrese la cantidad a pagar</b></p>
+                        <input style="width: 100px;" type="number" name="pago-net-monto" id="pago-net-monto" min="100">
+                    </div>
+                    <div>
+                        <button class="btn-generic btn-pagar btn-donacion-pago-net">PAGAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            ©2024 Ing.Soft.I - Designed by Sebastian | Franco | Mauro | Gaston 
+        </footer>
+        <script src="../script/donaciones.js" type="module"></script>
+    </div>
+</body>
+</html>

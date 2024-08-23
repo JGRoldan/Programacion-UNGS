@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../images/logo.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- MAPA  -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/> 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <a href="../../index.html">
+                        <img class="logo-portal" src="../images/logo.png" alt="Logo del Portal">
+                    </a>  
+                </div>
+                <ul>
+                    <a href="../../index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="#" id="registerLink" style="display:none;">
+                        <li>Register</li>
+                    </a>
+                    <a href="../pages/login.html" id="loginLink">
+                        <li>Login</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section class="login-container">
+            <div class="form">
+                <form class="login-form" id="login-form">
+                    <h4 class="datos">Ingresa tus datos personales</h4>
+                    <input type="text" placeholder="Nombre completo" id="nombre-miembro" required/>
+                    <input type="text" placeholder="Whatsapp" id="telefono-miembro" required/>
+                    <input type="email" placeholder="Ingrese su email" id="email" required/>
+                    <input type="password" placeholder="Ingrese su contraseña" id="password" required/>
+
+                    <h4 class="datos">Ingresa los datos de tu emprendimiento</h4>
+                    <input type="text" placeholder="Nombre del emprendimiento" id="nombre-emprendimiento" required/>
+                    <input type="text" placeholder="Dirección: calle numero, partido" id="direccion" required/>
+                    <div>
+                        <label for="direccion-checkbox">Dirección visible</label>
+                        <input type="checkbox" name="direccion-checkbox" id="direccion-checkbox"/>
+                    </div>
+                    <div>
+                        <label for="rubro-opt">Rubro:</label>
+                        <select name="rubro-opt" id="rubro-opt">
+                            <option value="OTRO">Otro</option>
+                            <option value="MANTENIMIENTOGENERAL">Mantenimiento general del hogar</option>
+                            <option value="CATERINGYCOMIDA">Catering y comida a domicilio</option>
+                            <option value="LAVANDERIA">Servicio de lavandería</option>
+                            <option value="MUSICA">Clases de música</option>
+                            <option value="JARDINERIA">Servicio de jardinería</option>
+                            <option value="TALLERBICICLETAS">Taller de reparación</option>
+                            <option value="APOYOESCOLAR">Clases de apoyo escolar</option>
+                            <option value="FOTOGRAFIA">Servicio de fotografía profesional</option>
+                            <option value="CARPINTERIA">Taller de carpintería y mueblería</option>
+                            <option value="PROGRAMACION">Servicio freelancer de programación</option>
+                        </select>
+                    </div>
+                    <div style="padding: 10px;">
+                        <label for="horario-trabajo">Seleccione el rango horario:</label>
+                        <div style="display:flex; gap:10px">
+                            <input type="time" name="inicio-trabajo" id="inicio-trabajo" required>
+                            <input type="time" name="fin-trabajo" id="fin-trabajo" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Detalle su emprendimiento:</label>
+                        <textarea name="" id="detalle-emprendimiento" cols="40" rows="6"></textarea>
+                    </div>
+                    <div>
+                        <label for="">Redes sociales:</label>
+                        <input type="text" id="instagram" name="instagram" placeholder="Instagram">
+                        <input type="text" id="facebook" name="facebook" placeholder="Facebook">
+                        <input type="text" id="youtube" name="youtube" placeholder="Youtube">
+                        <input type="text" id="tiktok" name="tiktok" placeholder="Tiktok">
+                    </div>
+                    <div>
+                        <label for="logo-emprendimiento">Seleccione logo o imagen (no es obligatorio):</label>
+                        <input type="file" src="" alt="No es obligatorio" id="logo-emprendimiento">
+                    </div>
+                    <button type="submit" id="submit-login-btn">Registrarse</button>
+                    <p class="message">Ya estas registrado? <a href="./login.html">Inicia sesión</a></p>
+                    </form>
+            </div>
+            <div id="modal-register" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p><b>Direcciones encontradas. Copie la correcta.</b></p>
+                    <ul class="lista-direcciones">
+                        <li>ad</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="contenedor-mapa" style="z-index: 100;">
+            <span class="close-mapa">&times;</span>
+            <div id="map">
+            </div>
+        </div>
+        <footer>
+            ©2024 Ing.Soft.I - Designed by Sebastian | Franco | Mauro | Gaston 
+        </footer>
+    </div>
+    <script src="../script/register.js" type="module" defer></script>
+</body>
+</html>

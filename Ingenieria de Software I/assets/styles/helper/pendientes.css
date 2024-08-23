@@ -1,0 +1,91 @@
+.contenedor-general{
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+}
+.pendiente-container, .deshabilitado-container {
+    flex: 1;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 70%;
+    padding: 20px;
+}
+
+aside h2 {margin-bottom: 20px;}
+
+.pendiente-card-container,.disabled-card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pendiente-card, .disabled-card {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.18);
+}
+
+.pendiente-data, .disabled-data {
+    width: 60%;
+    align-self: center;
+    padding: 20px;
+}
+.pendiente-data > *, .disabled-data > * {
+    margin-bottom: 5px; /* Agregar espacio entre elementos */
+}
+
+.pendiente-mapa, .disabled-mapa {
+    width: 40%;
+}
+
+.btn-pendientes, .btn-disabled{
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.aceptar-btn{
+    background-color: #007bff;
+}
+.rechazar-btn, .deshabilitar-btn{
+    background-color: #ff0000;
+}
+.aceptar-btn:hover {
+    background-color: #0056b3;
+}
+.rechazar-btn:hover, .deshabilitar-btn:hover {
+    background-color: #b30000;
+}
+.habilitar-btn{
+    background-color: #04aa4f;
+}
+.habilitar-btn:hover{
+    background-color: #04AA6D;
+}
+
+@media (max-width: 768px) {
+    aside {
+        width: 100%;
+    }
+
+    .pendiente-card, .disabled-card {
+        flex-direction: column;
+    }
+
+    .pendiente-data, .pendiente-mapa, .disabled-data, .disabled-mapa {
+        width: 100%;
+    }
+    .pendiente-mapa, .disabled-mapa{
+        height: 200px;
+    }
+}

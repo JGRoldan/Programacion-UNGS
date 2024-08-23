@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📌Portal Emprendimientos</title>
+    <link rel="stylesheet" href="./assets/styles/style.css"> 
+    <link rel="shortcut icon" href="./assets/images/logo.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+     <!-- MAPA  -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <a href="index.html">
+                        <img class="logo-portal" src="./assets/images/logo.png" alt="Logo del Portal">
+                    </a>
+                </div>
+                <ul>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="./assets/pages/register.html" id="registerLink">
+                        <li>Register</li>
+                    </a>
+                    <a href="./assets/pages/login.html" id="loginLink">
+                        <li>Login</li>
+                    </a>
+                    <a href="./assets/pages/pendientes.html" id="pendingLink" style="display:none;">
+                        <li>Pendientes</li>
+                    </a>
+                    <a href="#" id="logoutLink" style="display:none;">
+                        <li>Logout</li>
+                    </a>
+                    <li id="username" style="display:none;"></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- filters and cards -->
+        <section class="filter-card-container">
+            <!-- filters -->
+            <aside>
+                <h3>Busca el emprendimiento que mas te guste</h3>
+                <form id="form-main">
+                    <div class="form-group">
+                      <label for="rubro">Rubro</label>
+                      <select name="rubro" id="rubros">
+                        <option value="TODOS">Todos</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="destacado">Destacado</label>
+                        <select name="destacado" id="destacado">
+                          <option value="TODOS">Todos</option>
+                          <option value="DESTACADO">Si</option>
+                          <option value="NODESTACADO">No</option>
+                        </select>
+                      </div>
+                    <button type="submit">FILTRAR</button>
+                </form>
+            </aside>
+            <div class="card-container"></div>
+        </section>
+        <div class="donation-list">
+            <div class="wrapper">
+                <a href="./assets/pages/donacion.html">
+                    <p>Ayudanos con tu donación haciendo click aca.💰</p>
+                </a>
+                <a href="./assets/pages/donacion.html">
+                    <p>Ayudanos con tu donación haciendo click aca.💰</p>
+                </a>
+                <a href="./assets/pages/donacion.html">
+                    <p>Ayudanos con tu donación haciendo click aca.💰</p>
+                </a>
+                <a href="./assets/pages/donacion.html">
+                    <p>Ayudanos con tu donación haciendo click aca.💰</p>
+                </a>
+            </div>
+        </div>
+        <div class="contenedor-mapa">
+            <span class="close-mapa">&times;</span>
+            <h2 class="mapa-emprendimiento"></h2>
+            <p class="mapa-detalle"></p>
+            <div id="map"></div>
+        </div>
+        <footer>
+            ©2024 Ing.Soft.I - Designed by Sebastian | Franco | Mauro | Gaston 
+        </footer>
+    </div>
+    <script src="./assets/script/index.js" type="module" defer></script>
+    <script src="./assets/script/logout.js" type="module"></script>
+    <script src="./assets/script/api/mapa.js" type="module" ></script>
+</body>
+</html>
