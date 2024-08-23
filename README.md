@@ -124,7 +124,7 @@ Lenguaje:
 | ---------- | 
 | Sistema para gestionar un supermercado | 
 
-# Ingenieria de software I_
+# _Ingenieria de software I_
 
 Lenguaje:
 
