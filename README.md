@@ -3,6 +3,7 @@
 ### Materias
 
 - Organización del computador I
+- Organización del computador II
 - Sistemas operativos y redes I
 - Introducción a la programación
 - Programación I 
@@ -23,6 +24,19 @@ Lenguaje:
 | Proyecto |
 | ---------- |
 | Juego Memotest | 
+
+# _Organización del computador II_
+
+Lenguaje:
+
+![](https://img.shields.io/badge/ARM-000000?style=for-the-badge&logo=NASM&logoColor=white)
+
+
+### Contenidos
+
+| Tp 1 | Tp 2 |
+| ---------- | --- |
+| - | - |
 
 # _SOR I_
 
