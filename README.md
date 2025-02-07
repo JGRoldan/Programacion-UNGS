@@ -11,6 +11,7 @@
 - Programación III 
 - Base de datos I
 - Ingenieria de Software I
+- Especificación y Validación de Software
 
 # _Organización del computador I_
 
@@ -154,3 +155,16 @@ Lenguaje:
 | Diagrama UML. |
 | Diagrama de arquitectura. |
 
+# Especificación y Validación de Software
+
+### Contenidos
+
+| TP | 
+| ---------- | 
+| Sistema de venta de libros online. | 
+| Requerimientos. | 
+| Casos de Uso. |
+| Historias de usuarios. |
+| Diagrama UML (Diagrama de clases, de secuencia y de actividad). |
+| Test cases, clases de equivalencia, CRUD |
+| Modelado |
