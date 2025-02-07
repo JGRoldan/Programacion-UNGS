@@ -155,7 +155,7 @@ Lenguaje:
 | Diagrama UML. |
 | Diagrama de arquitectura. |
 
-# Especificación y Validación de Software
+# _Especificación y Validación de Software_
 
 ### Contenidos
 
