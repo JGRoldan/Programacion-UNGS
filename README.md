@@ -29,7 +29,7 @@ Lenguaje:
 
 Lenguaje:
 
-![](https://img.shields.io/badge/ARM-000000?style=for-the-badge&logo=NASM&logoColor=white)
+![](https://img.shields.io/badge/NASM-000000?style=for-the-badge&logo=NASM&logoColor=white)
 
 
 ### Contenidos
